@@ -12,3 +12,5 @@ private/
 # Secrets
 .env
 .env.local
+
+README.md.save
