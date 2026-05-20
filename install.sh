@@ -30,7 +30,8 @@ mkdir -p ~/.config
 cp -r hypr ~/.config/
 cp -r i3 ~/.config/
 cp -r terminal/alacritty ~/.config/
-cp -r nvim ~/.config/
+cp -r wallpapers ~
+
 
 cp terminal/.zshrc ~/
 cp terminal/starship.toml ~/.config/

@@ -1,0 +1,393 @@
+# 🚀 EndeavourOS Rice / Dotfiles
+
+A heavily customized Linux setup focused on:
+
+* **Hyprland**
+* **i3wm**
+* **Waybar**
+* **EWW Dashboards**
+* **Cyber/Dark UI**
+* **Developer Workflow**
+* **Portable Arch Environment**
+
+This repository contains:
+
+* Window manager configs
+* Terminal customization
+* Dotfiles
+* Wallpapers
+* EWW widgets
+* Package lists
+* Bootstrap/install scripts
+
+---
+
+# 🖼 Preview
+
+## Environments
+
+* Hyprland (Primary)
+* i3wm (Fallback / Lightweight)
+* Portable EndeavourOS USB Environment
+
+## Features
+
+* Glassmorphism UI
+* Custom Waybar
+* EWW Dashboard
+* Spotify controls
+* Rofi launcher
+* Wlogout power menu
+* ZSH + Starship
+* Alacritty setup
+* Developer-focused environment
+
+---
+
+# 📂 Repository Structure
+
+```text
+dotfiles/
+├── README.md
+├── install.sh
+├── packages/
+│   ├── arch.txt
+│   └── aur.txt
+│
+├── hypr/
+│   ├── hyprland.conf
+│   ├── waybar/
+│   ├── eww/
+│   ├── wlogout/
+│   └── scripts/
+│
+├── i3/
+│   ├── config
+│   └── polybar/
+│
+├── terminal/
+│   ├── alacritty/
+│   ├── zsh/
+│   └── starship/
+│
+├── nvim/
+├── rofi/
+├── wallpapers/
+├── screenshots/
+└── private/
+```
+
+---
+
+# ⚡ Included Components
+
+## 🪟 Window Managers
+
+* Hyprland
+* i3wm
+
+## 🧩 Bars / Widgets
+
+* Waybar
+* EWW
+* Wlogout
+
+## 💻 Terminal Stack
+
+* ZSH
+* Starship
+* Alacritty
+* Kitty
+
+## 🎨 UI
+
+* Catppuccin-inspired palette
+* Rounded glassmorphism
+* Cyber/minimal aesthetics
+
+## 🛠 Developer Setup
+
+* Git
+* SSH
+* VSCode
+* Neovim
+* Python
+* NodeJS
+
+---
+
+# 📦 Main Packages Used
+
+## Core
+
+```bash
+hyprland
+waybar
+rofi-wayland
+eww
+wlogout
+swww
+grim
+slurp
+wl-clipboard
+```
+
+## Terminal
+
+```bash
+zsh
+starship
+alacritty
+kitty
+zsh-autosuggestions
+zsh-syntax-highlighting
+```
+
+## Audio / Media
+
+```bash
+pipewire
+wireplumber
+playerctl
+pamixer
+pavucontrol
+```
+
+## Bluetooth / Network
+
+```bash
+bluez
+bluez-utils
+networkmanager
+nm-connection-editor
+```
+
+## Developer Tools
+
+```bash
+git
+github-cli
+openssh
+neovim
+code
+python
+nodejs
+npm
+```
+
+## Fonts
+
+```bash
+ttf-jetbrains-mono-nerd
+noto-fonts
+noto-fonts-emoji
+```
+
+---
+
+# 🧠 Features
+
+## Hyprland
+
+* Dynamic tiling
+* Rounded windows
+* Blur
+* Animations
+* Floating rules
+* Custom keybinds
+
+## i3wm
+
+* Lightweight fallback environment
+* Stable workflow
+* Minimal setup
+
+## EWW Dashboard
+
+* Music controls
+* Todo widget
+* Calendar
+* User card
+* System info
+* Wallpaper section
+
+## Waybar
+
+* Media display
+* Workspace indicators
+* Network stats
+* Battery
+* Bluetooth
+* Clock
+
+---
+
+# ⌨ Keybinds
+
+## Hyprland
+
+| Keybind   | Action          |
+| --------- | --------------- |
+| SUPER + Q | Terminal        |
+| SUPER + D | Rofi            |
+| SUPER + E | File Manager    |
+| SUPER + L | Wlogout         |
+| SUPER + F | Fullscreen      |
+| SUPER + V | Toggle Floating |
+| SUPER + G | EWW Dashboard   |
+
+---
+
+# 🖥 Wallpapers
+
+Wallpapers are stored in:
+
+```text
+wallpapers/
+```
+
+Used with:
+
+```bash
+swww
+```
+
+---
+
+# 🔐 SSH Backup
+
+SSH configs are stored locally in:
+
+```text
+private/ssh/
+```
+
+Ignored through `.gitignore`.
+
+Private keys are NEVER pushed publicly.
+
+---
+
+# 🚀 Installation
+
+## 1️⃣ Clone Repo
+
+```bash
+git clone https://github.com/YOUR_USERNAME/dotfiles.git
+
+cd dotfiles
+```
+
+---
+
+## 2️⃣ Run Installer
+
+```bash
+chmod +x install.sh
+
+./install.sh
+```
+
+---
+
+# ⚙ install.sh Guide
+
+The installer:
+
+* Installs official Arch packages
+* Installs AUR packages
+* Skips missing packages safely
+* Copies configs
+* Restores user environment
+
+---
+
+# 📜 Example install.sh
+
+```bash
+#!/bin/bash
+
+GREEN='\033[0;32m'
+YELLOW='\033[1;33m'
+NC='\033[0m'
+
+install_pkg() {
+    local manager=$1
+    local pkg=$2
+
+    if [[ -z "$pkg" || "$pkg" =~ ^# ]]; then
+        return
+    fi
+
+    if $manager -Si "$pkg" &>/dev/null; then
+        echo -e "${GREEN}[INSTALL]${NC} $pkg"
+        $manager -S --needed --noconfirm "$pkg"
+    else
+        echo -e "${YELLOW}[SKIP]${NC} $pkg not found"
+    fi
+}
+
+echo "Installing official packages..."
+
+while read -r pkg; do
+    install_pkg sudo\ pacman "$pkg"
+done < packages/arch.txt
+
+echo "Installing AUR packages..."
+
+while read -r pkg; do
+    install_pkg yay "$pkg"
+done < packages/aur.txt
+
+echo "Copying configs..."
+
+mkdir -p ~/.config
+
+cp -r hypr ~/.config/
+cp -r i3 ~/.config/
+cp -r rofi ~/.config/
+cp -r nvim ~/.config/
+
+cp terminal/zsh/.zshrc ~/
+cp terminal/starship/starship.toml ~/.config/
+
+echo "Done."
+```
+
+---
+
+# 🛡 Security Notes
+
+Never upload:
+
+* `.ssh/id_*`
+* API keys
+* `.env`
+* Tokens
+* Secrets
+
+Use:
+
+```text
+.gitignore
+```
+
+for private files.
+
+---
+
+# 📌 Goals of This Setup
+
+* Portable Linux workflow
+* Developer-focused environment
+* Fast recovery after reinstall
+* Minimal yet aesthetic desktop
+* Hybrid productivity + rice setup
+
+---
+
+# 📜 License
+
+Personal dotfiles configuration.
+
+Feel free to fork and modify.
