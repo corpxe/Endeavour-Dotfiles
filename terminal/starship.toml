@@ -1,0 +1,24 @@
+add_newline = true
+
+format = """
+[╭─](#ffb36b)$directory$git_branch$git_status
+[╰─](#ffb36b)$character"""
+
+[directory]
+style = "#f2e9e4"
+format = "[$path]($style) "
+truncation_length = 3
+truncate_to_repo = true
+
+[git_branch]
+symbol = " "
+style = "#ffb36b"
+format = "[$symbol$branch]($style) "
+
+[git_status]
+style = "#ffb36b"
+format = "[$all_status$ahead_behind]($style) "
+
+[character]
+success_symbol = "[❯](#ffb36b)"
+error_symbol = "[❯](#ff6b6b)"

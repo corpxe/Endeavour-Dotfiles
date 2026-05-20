@@ -1,0 +1,149 @@
+* {
+  all: unset;
+
+  color: #cdd6f4;
+
+  font-family: "JetBrainsMono Nerd Font";
+}
+
+.main {
+  background-color: rgba(10, 10, 20, 0.94);
+
+  border: 2px solid rgba(137,180,250,0.18);
+
+  border-radius: 28px;
+
+  padding: 24px;
+}
+
+/* CARDS */
+
+.card {
+  background-color: rgba(18,18,32,0.98);
+
+  border-radius: 24px;
+
+  border: 1px solid rgba(255,255,255,0.05);
+
+  padding: 20px;
+}
+
+/* SYSTEM */
+
+.system-card {
+  min-width: 240px;
+  min-height: 160px;
+}
+
+.title {
+  font-size: 16px;
+
+  line-height: 2;
+}
+
+/* CALENDAR */
+
+.calendar-card {
+  min-width: 240px;
+  min-height: 300px;
+}
+
+/* TODO */
+
+.todo-card {
+  min-width: 260px;
+  min-height: 160px;
+}
+
+.todo-title {
+  font-size: 22px;
+
+  color: #cba6f7;
+
+  font-weight: bold;
+}
+
+.todo-item {
+  font-size: 15px;
+}
+
+/* IMAGE */
+
+.image-card {
+  min-width: 260px;
+  min-height: 300px;
+
+  padding: 0;
+}
+
+.wallpaper {
+  background-image: url("/home/corpxe/Pictures/wallpapers/main.jpg");
+
+  background-size: cover;
+
+  background-position: center;
+
+  border-radius: 24px;
+
+  min-width: 260px;
+  min-height: 300px;
+}
+
+/* MUSIC */
+
+.music-card {
+  min-width: 240px;
+  min-height: 160px;
+}
+
+.song-title {
+  font-size: 22px;
+
+  font-weight: bold;
+
+  color: #f5e0dc;
+}
+
+.song-artist {
+  color: #a6adc8;
+
+  font-size: 14px;
+}
+
+.music-btn {
+  background-color: rgba(255,255,255,0.06);
+
+  border-radius: 999px;
+
+  min-width: 50px;
+  min-height: 50px;
+
+  font-size: 18px;
+}
+
+.music-btn.active {
+  background-color: #f5c2e7;
+
+  color: #11111b;
+}
+
+/* USER */
+
+.user-card {
+  min-width: 240px;
+  min-height: 300px;
+}
+
+.user-name {
+  font-size: 28px;
+
+  font-weight: bold;
+
+  color: #f5c2e7;
+}
+
+.user-tag {
+  font-size: 18px;
+
+  color: #89b4fa;
+}

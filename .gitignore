@@ -1,0 +1,14 @@
+# Private stuff
+private/
+*.pem
+*.key
+*.pub.old
+
+# SSH
+**/id_rsa
+**/id_ed25519
+**/known_hosts
+
+# Secrets
+.env
+.env.local

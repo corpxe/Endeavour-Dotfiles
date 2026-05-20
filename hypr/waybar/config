@@ -1,0 +1,107 @@
+{
+  "layer": "top",
+  "position": "top",
+  "height": 30,
+  "margin-top": 6,
+  "margin-left": 10,
+  "margin-right": 20,
+
+  "modules-left": [
+    "custom/logo",
+    "hyprland/workspaces",
+    "custom/media"
+  ],
+
+  "modules-center": [
+    "clock"
+  ],
+
+  "modules-right": [
+    "cpu",
+    "memory",
+    "temperature",
+    "pulseaudio",
+    "network",
+    "bluetooth",
+    "battery",
+    "tray"
+  ],
+
+  "custom/logo": {
+    "format": " ☠ ",
+    "tooltip": "Hyprland Main Rice"
+  },
+
+  "hyprland/workspaces": {
+    "format": "{name}",
+    "all-outputs": true
+  },
+
+  "custom/media":  {
+    "format": "{}",
+    "max-length": 45,
+    "return-type": "json",
+    "exec": "playerctl -a metadata --format '{\"text\":\"  {{artist}} - {{title}}\",\"class\":\"custom-media\"}' -F",
+    "on-click": "playerctl play-pause",
+    "on-scroll-up": "playerctl next",
+    "on-scroll-down": "playerctl previous",
+    "escape": true
+  },
+
+  "clock": {
+    "format": "  {:%I:%M %p}",
+    "tooltip-format": "{:%A, %d %B %Y}"
+  },
+
+  "cpu": {
+    "format": "  {usage}%",
+    "tooltip": true
+  },
+
+  "memory": {
+    "format": "  {used:0.1f}G",
+    "tooltip": true
+  },
+
+  "temperature": {
+    "critical-threshold": 80,
+    "format": "  {temperatureC}°C"
+  },
+
+  "pulseaudio": {
+    "format": "  {volume}%",
+    "format-muted": "󰝟 muted",
+    "scroll-step": 5,
+    "on-click": "pavucontrol"
+  },
+
+  "network": {
+    "format-wifi": "  {signalStrength}%",
+    "format-ethernet": "󰈀 wired",
+    "format-disconnected": "󰤮 offline",
+
+    "tooltip": true,
+
+    "on-click": "~/.config/waybar/scripts/wifi-menu.sh",
+    "on-click-right": "nm-connection-editor",
+    "on-scroll-up": "nmcli radio wifi off",
+    "on-scroll-down": "nmcli radio wifi on"
+  },
+
+  "bluetooth": {
+    "format": "",
+    "format-connected": " {num_connections}",
+    "on-click": "blueman-manager"
+  },
+
+  "battery": {
+    "format": "  {capacity}%",
+    "format-charging": "  {capacity}%",
+    "format-warning": "  {capacity}%",
+    "warning": 20
+  },
+
+  "tray": {
+    "spacing": 6
+  }
+}

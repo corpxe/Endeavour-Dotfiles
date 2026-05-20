@@ -1,0 +1,23 @@
+{
+  "layer": "top",
+  "position": "top",
+  "height": 26,
+
+  "modules-left": ["hyprland/workspaces"],
+  "modules-center": [],
+  "modules-right": ["battery", "clock"],
+
+  "custom/power": {
+    "format": "POWER",
+    "tooltip": false
+  },
+
+  "clock": {
+    "format": "{:%H:%M}"
+  },
+
+  "battery": {
+    "format": "{capacity}%",
+    "interval": 60
+  }
+}

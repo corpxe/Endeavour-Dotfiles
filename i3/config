@@ -1,0 +1,143 @@
+set $mod Mod4
+
+font pango:JetBrainsMono Nerd Font 10
+
+# -----------------------------
+# GAPS
+# -----------------------------
+
+gaps inner 6
+gaps outer 3
+
+# -----------------------------
+# APPS
+# -----------------------------
+
+set $terminal alacritty
+set $browser firefox
+set $filemanager thunar
+set $launcher "rofi -show drun"
+
+# -----------------------------
+# APP LAUNCHES
+# -----------------------------
+
+bindsym $mod+t exec $terminal
+bindsym $mod+d exec $launcher
+bindsym $mod+b exec $browser
+bindsym $mod+e exec $filemanager
+bindsym $mod+Shift+P exec ~/.config/i3/scripts/powersave.sh
+bindsym $mod+w exec ~/.tarball-installations/zen/zen
+bindsym $mod+c exec code
+bindsym $mod+s exec spotify-launcher
+
+# -----------------------------
+# WINDOW MANAGEMENT
+# -----------------------------
+
+bindsym $mod+q kill
+bindsym $mod+Shift+r reload
+bindsym $mod+Shift+e exec i3-msg exit
+
+# -----------------------------
+# FOCUS MOVEMENT
+# -----------------------------
+
+bindsym $mod+h focus left
+bindsym $mod+j focus down
+bindsym $mod+k focus up
+bindsym $mod+l focus right
+
+# -----------------------------
+# MOVE WINDOWS
+# -----------------------------
+
+bindsym $mod+Shift+h move left
+bindsym $mod+Shift+j move down
+bindsym $mod+Shift+k move up
+bindsym $mod+Shift+l move right
+
+# -----------------------------
+# SPLITS
+# -----------------------------
+
+bindsym $mod+v split v
+bindsym $mod+x split h
+
+# -----------------------------
+# LAYOUTS
+# -----------------------------
+
+bindsym $mod+Shift+w layout tabbed
+bindsym $mod+Shift+t layout toggle split
+bindsym $mod+f fullscreen toggle
+bindsym $mod+Shift+space floating toggle
+
+# -----------------------------
+# WORKSPACES
+# -----------------------------
+
+bindsym $mod+1 workspace 1
+bindsym $mod+2 workspace 2
+bindsym $mod+3 workspace 3
+bindsym $mod+4 workspace 4
+bindsym $mod+5 workspace 5
+
+# -----------------------------
+# MOVE TO WORKSPACE
+# -----------------------------
+
+bindsym $mod+Shift+1 move container to workspace 1
+bindsym $mod+Shift+2 move container to workspace 2
+bindsym $mod+Shift+3 move container to workspace 3
+bindsym $mod+Shift+4 move container to workspace 4
+bindsym $mod+Shift+5 move container to workspace 5
+
+# -----------------------------
+# WINDOW SWITCHER
+# -----------------------------
+
+bindsym $mod+Tab exec rofi -show window
+
+# -----------------------------
+# SCREENSHOT
+# -----------------------------
+
+bindsym $mod+Shift+s exec flameshot gui
+
+# -----------------------------
+# WALLPAPER
+# -----------------------------
+
+exec_always --no-startup-id feh --bg-fill ~/wallpapers/wings.jpg
+
+# -----------------------------
+# PICOM
+# -----------------------------
+
+exec --no-startup-id picom
+
+# -----------------------------
+# NOTIFICATIONS
+# -----------------------------
+
+exec --no-startup-id dunst
+
+# -----------------------------
+# APPLETS
+# -----------------------------
+
+exec --no-startup-id nm-applet
+exec --no-startup-id blueman-applet
+
+# -----------------------------
+# POLYBAR
+# -----------------------------
+
+exec_always --no-startup-id ~/.config/polybar/launch.sh
+
+# -----------------------------
+# MOUSE
+# -----------------------------
+
+floating_modifier $mod

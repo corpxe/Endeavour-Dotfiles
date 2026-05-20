@@ -1,0 +1,164 @@
+* {
+  all: unset;
+
+  font-family: "JetBrainsMono Nerd Font";
+}
+
+/* MAIN WINDOW */
+
+.main {
+  background: rgba(10, 10, 20, 0.82);
+
+  border-radius: 32px;
+
+  border: 2px solid rgba(137,180,250,0.20);
+
+  padding: 24px;
+}
+
+/* GENERIC CARD */
+
+.card {
+  background: rgba(18,18,32,0.94);
+
+  border-radius: 26px;
+
+  border: 1px solid rgba(255,255,255,0.06);
+
+  padding: 20px;
+
+  box-shadow: 0 0 12px rgba(0,0,0,0.25);
+}
+
+/* LEFT */
+
+.system-card {
+  min-width: 260px;
+  min-height: 180px;
+}
+
+.title {
+  font-size: 16px;
+
+  line-height: 2;
+
+  color: #cdd6f4;
+}
+
+.calendar-card {
+  min-width: 260px;
+  min-height: 320px;
+}
+
+/* CENTER */
+
+.todo-card {
+  min-width: 280px;
+  min-height: 180px;
+}
+
+.todo-title {
+  font-size: 24px;
+
+  color: #cba6f7;
+
+  font-weight: bold;
+}
+
+.todo-item {
+  font-size: 15px;
+
+  color: #cdd6f4;
+}
+
+.image-card {
+  min-width: 280px;
+  min-height: 320px;
+
+  padding: 0;
+
+  overflow: hidden;
+
+  border-radius: 26px;
+}
+
+.wallpaper {
+  min-width: 100%;
+  min-height: 100%;
+
+  background-image: url("/home/corpxe/wallpapers/spidey.jpg");
+
+  background-size: cover;
+  background-position: center;
+
+  border-radius: 26px;
+}
+
+/* RIGHT */
+
+.music-card {
+  min-width: 260px;
+  min-height: 180px;
+}
+
+.song-title {
+  font-size: 22px;
+
+  font-weight: bold;
+
+  color: #f5e0dc;
+}
+
+.song-artist {
+  color: #7f849c;
+
+  font-size: 14px;
+}
+
+/* MUSIC BUTTONS */
+
+.music-btn {
+  background: rgba(255,255,255,0.06);
+
+  border-radius: 999px;
+
+  min-width: 52px;
+  min-height: 52px;
+
+  transition: 180ms;
+
+  font-size: 18px;
+}
+
+.music-btn:hover {
+  background: rgba(245,194,231,0.18);
+}
+
+.music-btn.active {
+  background: #f5c2e7;
+
+  color: #11111b;
+
+  box-shadow: 0 0 12px rgba(245,194,231,0.35);
+}
+
+/* USER */
+
+.user-card {
+  min-width: 260px;
+  min-height: 320px;
+}
+
+.user-name {
+  font-size: 30px;
+
+  font-weight: bold;
+
+  color: #f5c2e7;
+}
+
+.user-tag {
+  font-size: 18px;
+
+  color: #89b4fa;
+}

@@ -1,0 +1,41 @@
+set $mod Mod4
+
+font pango:JetBrainsMono Nerd Font 10
+
+# APPS
+bindsym $mod+Return exec alacritty
+bindsym $mod+d exec rofi -show drun
+bindsym $mod+b exec firefox
+bindsym $mod+w exec ~/.tarball-installations/zen/zen
+bindsym $mod+c exec code
+bindsym $mod+s exec spotify-launcher
+
+
+# EXIT
+bindsym $mod+Shift+q kill
+bindsym $mod+Shift+r reload
+bindsym $mod+Shift+e exec i3-msg exit
+
+# FOCUS
+bindsym $mod+h focus left
+bindsym $mod+j focus down
+bindsym $mod+k focus up
+bindsym $mod+l focus right
+
+# FULLSCREEN
+bindsym $mod+f fullscreen toggle
+
+# SWITCH BACK TO MINIMAL
+bindsym $mod+Shift+O exec ~/.config/i3/scripts/minimal.sh
+
+# BLACK BACKGROUND
+exec_always --no-startup-id xsetroot -solid black
+
+# KILL POLYBAR
+exec_always --no-startup-id killall polybar
+
+# KILL PICOM
+exec_always --no-startup-id killall picom
+
+# DUNST
+exec --no-startup-id dunst

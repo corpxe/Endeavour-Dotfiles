@@ -1,0 +1,160 @@
+(defpoll music :interval "1s"
+  "playerctl metadata title 2>/dev/null || echo 'No Music'")
+
+(defpoll artist :interval "1s"
+  "playerctl metadata artist 2>/dev/null || echo 'Spotify'")
+
+(defwindow dashboard
+  :monitor 0
+  :geometry (geometry
+    :x "50%"
+    :y "50%"
+    :width "1100px"
+    :height "700px"
+    :anchor "center"
+  )
+
+  :stacking "fg"
+  :windowtype "normal"
+
+  (dashboard-content)
+)
+
+(defwidget dashboard-content []
+  (box
+  :orientation "horizontal"
+  :spacing 20
+  :space-evenly false
+  :halign "center"
+  :valign "center"
+  :class "main"
+
+    ;; LEFT
+
+    (box
+      :orientation "vertical"
+      :spacing 20
+
+      (box
+        :class "card system-card"
+
+        (label
+          :class "title"
+          :text "󰣇 SYSTEM\n\n󰍛 Ryzen CPU\n󰾆 16GB RAM\n󰘚 Hyprland"
+        )
+      )
+
+      (box
+        :class "card calendar-card"
+
+        (calendar)
+      )
+    )
+
+    ;; CENTER
+
+    (box
+      :orientation "vertical"
+      :spacing 20
+
+      (box
+        :class "card todo-card"
+
+        (box
+          :orientation "vertical"
+          :spacing 10
+
+          (label :class "todo-title" :text "✓ Tasks")
+
+          (label :class "todo-item" :text "☐ Finish Hyprland")
+          (label :class "todo-item" :text "☐ Setup Coding")
+          (label :class "todo-item" :text "☑ EWW Dashboard")
+          (label :class "todo-item" :text "☐ AI Sidebar")
+        )
+      )
+
+      (box
+        :class "card image-card"
+
+        (box
+          :class "wallpaper"
+        )
+      )
+    )
+
+    ;; RIGHT
+
+    (box
+      :orientation "vertical"
+      :spacing 20
+
+      ;; MUSIC
+
+      (box
+        :class "card music-card"
+
+        (box
+          :orientation "vertical"
+          :spacing 16
+          :halign "center"
+
+          (label
+            :class "song-title"
+            :text music
+          )
+
+          (label
+            :class "song-artist"
+            :text artist
+          )
+
+          (box
+            :spacing 20
+            :halign "center"
+
+            (button
+              :class "music-btn"
+              :onclick "playerctl previous"
+              "󰒮"
+            )
+
+            (button
+              :class "music-btn active"
+              :onclick "playerctl play-pause"
+              "󰏤"
+            )
+
+            (button
+              :class "music-btn"
+              :onclick "playerctl next"
+              "󰒭"
+            )
+          )
+        )
+      )
+
+      ;; USER CARD
+
+      (box
+        :class "card user-card"
+
+        (box
+          :orientation "vertical"
+          :spacing 8
+          :halign "center"
+          :valign "center"
+
+          (label
+            :class "user-name"
+            :text "Vansh Garg"
+          )
+
+          (label
+            :class "user-tag"
+            :text "~Dezzki"
+          )
+        )
+      )
+    )
+  )
+)

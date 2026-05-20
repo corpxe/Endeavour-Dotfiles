@@ -1,0 +1,19 @@
+* {
+  font-family: JetBrains Mono;
+  font-size: 11px;
+}
+
+window#waybar {
+  background: #0f0f0f;
+  color: #eaeaea;
+}
+
+#battery, #clock {
+  padding: 0 8px;
+}
+
+#custom-power {
+  color: #ffcc00;
+  font-weight: bold;
+  padding: 0 8px;
+}

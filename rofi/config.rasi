@@ -1,0 +1,81 @@
+configuration {
+    modi: "drun,run,window";
+    show-icons: true;
+    icon-theme: "Papirus";
+    font: "JetBrainsMono Nerd Font 11";
+}
+
+* {
+    bg:          #0f0f10ee;
+    bg-alt:      #1a1a1cee;
+    border:      #2a2a2e;
+    selected:    #3a3a40;
+    fg:          #e6e6e6;
+    fg-alt:      #b8b8b8;
+
+    background-color: @bg;
+    text-color: @fg;
+}
+
+window {
+    width: 35%;
+    border: 2px;
+    border-color: @border;
+    border-radius: 14px;
+    padding: 18px;
+    background-color: @bg;
+}
+
+mainbox {
+    spacing: 12px;
+}
+
+inputbar {
+    background-color: @bg-alt;
+    border-radius: 10px;
+    padding: 12px;
+}
+
+prompt {
+    text-color: @fg-alt;
+    margin: 0px 10px 0px 0px;
+}
+
+entry {
+    text-color: @fg;
+    placeholder: "Search...";
+    placeholder-color: @fg-alt;
+}
+
+listview {
+    lines: 10;
+    columns: 1;
+    spacing: 8px;
+    scrollbar: false;
+    padding: 12px 0px 0px;
+}
+
+element {
+    padding: 12px;
+    border-radius: 10px;
+    background-color: transparent;
+}
+
+element normal.normal {
+    background-color: transparent;
+    text-color: @fg;
+}
+
+element selected.normal {
+    background-color: @selected;
+    text-color: @fg;
+}
+
+element-icon {
+    size: 24px;
+    margin: 0px 12px 0px 0px;
+}
+
+element-text {
+    text-color: inherit;
+}

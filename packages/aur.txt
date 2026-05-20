@@ -1,0 +1,9 @@
+antigravity
+brave-bin
+eww
+hyprpanel
+hyprspaces
+mpvpaper
+silo-primevideo
+walker-bin
+wlogout

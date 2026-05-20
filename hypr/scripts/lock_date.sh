@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+date +"%A, %d %B"
