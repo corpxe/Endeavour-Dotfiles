@@ -1,51 +1,64 @@
 [colors]
-background = #11111b
-foreground = #cdd6f4
-
-pink = #f5c2e7
-blue = #89b4fa
-cyan = #94e2d5
-green = #a6e3a1
-yellow = #f9e2af
-red = #f38ba8
+background = #cc111827
+foreground = #e5e9f0
+blue = #7aa2f7
+cyan = #7dcfff
+pink = #bb9af7
+gray = #5c6370
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-[bar/main]
+[bar/left]
+monitor = HDMI-0
+
+width = 100%
+height = 32
+
+background = ${colors.background}
+foreground = ${colors.foreground}
+
+padding-left = 3
+padding-right = 3
+
+module-margin = 2
+
+font-0 = "JetBrainsMono Nerd Font:size=11;2"
+
+modules-left = i3
+modules-center = xwindow date
+modules-right = cpu memory
+
+wm-restack = i3
+override-redirect = false
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[bar/right]
 monitor = DP-2
 
 width = 100%
 height = 32
 
-radius = 12
-
 background = ${colors.background}
 foreground = ${colors.foreground}
 
-line-size = 2
+padding-left = 3
+padding-right = 3
 
-border-size = 0
+module-margin = 2
 
-padding-left = 2
-padding-right = 2
+font-0 = "JetBrainsMono Nerd Font:size=11;2"
 
-module-margin = 1
+modules-left = i3 xwindow
+modules-center = prev playpause next music
+modules-right = pulseaudio wlan battery
 
-font-0 = "JetBrainsMono Nerd Font:size=11;3"
-
-modules-left = i3
-modules-center = date music prev playpause next
-modules-right = cpu memory battery pulseaudio
-
-cursor-click = pointer
-cursor-scroll = ns-resize
-
-enable-ipc = true
+tray-position = right
 
 wm-restack = i3
 override-redirect = false
 
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 [module/i3]
 type = internal/i3
@@ -165,7 +178,7 @@ type = custom/text
 
 format = "󰒮"
 
-click-left = playerctl -p "$(cat /tmp/polybar-player)" previous
+click-left = playerctl previous
 
 format-foreground = ${colors.blue}
 
@@ -176,7 +189,7 @@ type = custom/text
 
 format = "󰐊"
 
-click-left = playerctl -p "$(cat /tmp/polybar-player)" play-pause
+click-left = playerctl play-pause
 
 format-foreground = ${colors.pink}
 
@@ -187,7 +200,7 @@ type = custom/text
 
 format = "󰒭"
 
-click-left = playerctl -p "$(cat /tmp/polybar-player)" next
+click-left = playerctl next
 
 format-foreground = ${colors.blue}
 
@@ -196,15 +209,8 @@ format-foreground = ${colors.blue}
 [module/music]
 type = custom/script
 
-exec = ~/.config/polybar/scripts/player-status.sh
+exec = playerctl metadata --format "{{artist}} - {{title}}" 2>/dev/null
+interval = 2
 
-interval = 1
-
-label-maxlen = 40
-
-format-prefix = "󰎈 "
-
+label-maxlen = 35
 label-foreground = ${colors.cyan}
-
-scroll-up = playerctl -p "$(playerctl -l | tail -1)" play-pause
-scroll-down = ~/.config/polybar/scripts/player-cycle.sh
