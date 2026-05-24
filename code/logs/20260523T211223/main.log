@@ -1,8 +1,0 @@
-2026-05-23 21:12:23.879 [info] StorageMainService: creating application shared storage
-2026-05-23 21:12:23.879 [info] StorageMainService: creating application shared storage with local application storage fallback
-2026-05-23 21:12:23.893 [info] [shared storage] Creating shared storage database at '/home/corpxe/.vscode-oss-shared/sharedStorage/state.vscdb' (wasCreated: false)
-2026-05-23 21:12:23.894 [info] [shared storage] Initializing fallback application storage (type: local, path: /home/corpxe/.config/Code - OSS/User/globalStorage/state.vscdb)
-2026-05-23 21:12:23.929 [info] [shared storage] Fallback application storage initialized with 98 items
-2026-05-23 21:12:23.930 [info] update#setState disabled
-2026-05-23 21:12:23.931 [info] update#ctor - updates are disabled as there is no update URL
-2026-05-24 00:15:44.052 [info] Extension host with pid 5945 exited with code: 0, signal: unknown.

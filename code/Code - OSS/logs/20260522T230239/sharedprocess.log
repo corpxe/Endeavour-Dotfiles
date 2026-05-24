@@ -1,6 +1,0 @@
-2026-05-23 00:00:33.968 [info] Getting Manifest... bceskavich.theme-dracula-at-night
-2026-05-23 00:00:34.702 [info] Installing extension: bceskavich.theme-dracula-at-night {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/corpxe/.vscode-oss/extensions/extensions.json","path":"/home/corpxe/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"isBuiltin":false,"isApplicationScoped":false,"productVersion":{"version":"1.119.0","date":"2026-05-05T11:23:50-07:00"}}
-2026-05-23 00:00:38.160 [info] Extension signature verification result for bceskavich.theme-dracula-at-night: Success. Executed: true. Duration: 1752ms.
-2026-05-23 00:00:38.225 [info] Extracted extension to file:///home/corpxe/.vscode-oss/extensions/bceskavich.theme-dracula-at-night-2.6.0-universal: bceskavich.theme-dracula-at-night
-2026-05-23 00:00:38.246 [info] Renamed to /home/corpxe/.vscode-oss/extensions/bceskavich.theme-dracula-at-night-2.6.0-universal
-2026-05-23 00:00:38.274 [info] Extension installed successfully: bceskavich.theme-dracula-at-night vscode-userdata:/home/corpxe/.vscode-oss/extensions/extensions.json

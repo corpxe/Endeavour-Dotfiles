@@ -1,7 +1,0 @@
-2026-05-22 15:47:23.383 [info] Marked extension as removed shalldie.background-2.0.10-universal
-2026-05-22 15:47:23.430 [info] shalldie.background 2.0.10 Running post uninstall script
-2026-05-22 15:47:23.463 [error] shalldie.background 2.0.10 post-uninstall /usr/lib/electron39/electron: bad option: --js-flags=--nodecommit_pooled_pages
-
-2026-05-22 15:47:23.465 [error] Failed to run post uninstall script shalldie.background 2.0.10
-2026-05-22 15:47:23.465 [error] post-uninstall process exited with code 9
-2026-05-22 15:47:23.478 [info] Deleted marked for removal extension from disk shalldie.background /home/corpxe/.vscode-oss/extensions/shalldie.background-2.0.10-universal

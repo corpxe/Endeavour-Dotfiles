@@ -1,6 +1,0 @@
-2026-05-22 19:54:25.460 [warning] Dir "/home/corpxe/Desktop/IIT-ds/Stats/.pixi/envs" is not watchable (directory does not exist)
-2026-05-22 19:54:25.500 [info] Python interpreter path: ./.venv/bin/python
-2026-05-22 19:54:25.562 [info] > pyenv which python
-2026-05-22 19:54:25.562 [info] cwd: .
-2026-05-22 19:54:27.253 [error] Unable to find workspace for given file
-2026-05-22 19:54:27.484 [info] Starting Jedi language server for Stats.

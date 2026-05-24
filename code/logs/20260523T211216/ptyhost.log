@@ -1,2 +1,0 @@
-2026-05-23 21:12:19.828 [info] Revived process, old id 63c4a19e4c6f51d44f419df3cb6aba60-1 -> new id 1
-2026-05-23 21:12:20.609 [error] Failed to set sticky bit on /tmp/corpxe-code-oss-zsh: Error: ENOENT: no such file or directory, chmod '/tmp/corpxe-code-oss-zsh'
