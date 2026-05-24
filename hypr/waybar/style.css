@@ -141,3 +141,17 @@ window#waybar {
 
     font-weight: bold;
 }
+
+
+#custom-prev,
+#custom-next {
+    background: rgba(30, 30, 46, 0.85);
+    color: #89b4fa;
+
+    padding: 0 14px;
+    margin: 4px 6px;
+
+    border-radius: 12px;
+
+    font-weight: bold;
+}

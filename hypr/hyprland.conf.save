@@ -20,8 +20,8 @@ $menu = rofi -show drun
 ### AUTOSTART ##
 ################
 
-exec-once = mpvpaper -o "loop no-audio panscan=1.0" HDMI-A-1 ~/wallpapers/live/Nightcraft.mp4
-exec-once = mpvpaper -o "loop no-audio panscan=1.0" eDP-1 ~/wallpapers/live/Nightcraft.mp4
+exec-once = mpvpaper -o "loop no-audio panscan=1.0" HDMI-A-1 ~/wallpapers/live/ben.mp4
+exec-once = mpvpaper -o "loop no-audio panscan=1.0" eDP-1 ~/wallpapers/live/ben.mp4
 
 exec-once = waybar &
 exec-once = dunst
@@ -128,7 +128,7 @@ bind = $mainMod, R, exec, rofi -show drun
 bind = $mainMod, E, exec, thunar
 
 bind = $mainMod, Q, killactive
-#bind = $mainMod SHIFT, E, exit
+bind = $mainMod SHIFT, E, exit
 bind = $mainMod, W, exec, ~/.tarball-installations/zen/zen
 bind = $mainMod, C, exec, code
 bind = $mainMod, S, exec, spotify-launcher
@@ -137,7 +137,6 @@ bind = $mainMod, G, exec, eww open --toggle dashboard
 bind = $mainMod, L, exec, wlogout
 bind = $mainMod, B, exec, brave
 bind = $mainMod, O, exec, obsidian
-bind = $mainMod, N, exec, googlekeep
 
 bind = $mainMod, F, fullscreen
 bind = $mainMod, V, togglefloating

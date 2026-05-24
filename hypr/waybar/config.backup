@@ -9,9 +9,7 @@
   "modules-left": [
     "custom/logo",
     "hyprland/workspaces",
-    "custom/prev",	
-    "custom/media",
-    "custom/next"	
+    "custom/media"
   ],
 
   "modules-center": [
@@ -39,27 +37,15 @@
     "all-outputs": true
   },
 
-  "custom/media": {
-    "exec": "~/.config/waybar/scripts/player-status.sh",
-    "interval": 1,
-
-    "on-click": "playerctl -p $(cat /tmp/waybar-player) play-pause",
-
-    "on-scroll-up": "~/.config/waybar/scripts/player-cycle.sh",
-
-    "on-scroll-down": "~/.config/waybar/scripts/player-cycle.sh",
-
-    "return-type": "json"
-  },
-
-  "custom/prev": {
-    "format": "󰒮",
-    "on-click": "playerctl -p $(cat /tmp/waybar-player) previous"
-  },
-
-  "custom/next": {
-    "format": "󰒭",
-    "on-click": "playerctl -p $(cat /tmp/waybar-player) next"
+  "custom/media":  {
+    "format": "{}",
+    "max-length": 45,
+    "return-type": "json",
+    "exec": "playerctl -a metadata --format '{\"text\":\"  {{artist}} - {{title}}\",\"class\":\"custom-media\"}' -F",
+    "on-click": "playerctl play-pause",
+    "on-scroll-up": "playerctl next",
+    "on-scroll-down": "playerctl previous",
+    "escape": true
   },
 
   "clock": {
