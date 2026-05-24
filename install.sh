@@ -36,6 +36,7 @@ cp -r wallpapers ~
 cp terminal/.zshrc ~/
 cp terminal/starship.toml ~/.config/
 
+source ~/.zshrc
 echo "Done."
 
 if [ -d "private/ssh" ]; then
