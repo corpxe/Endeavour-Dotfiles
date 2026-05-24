@@ -1,0 +1,44 @@
+2026-05-23 03:20:56.691 [warning] Dir "/home/corpxe/Desktop/IIT-ds/Stats/.pixi/envs" is not watchable (directory does not exist)
+2026-05-23 03:20:57.555 [info] Starting Environment refresh
+2026-05-23 03:20:57.555 [info] Searching for interpreters in posix paths locator
+2026-05-23 03:20:57.557 [info] Searching for pyenv environments
+2026-05-23 03:20:57.557 [info] Searching for conda environments
+2026-05-23 03:20:57.558 [info] Searching for global virtual environments
+2026-05-23 03:20:57.558 [info] Searching for custom virtual environments
+2026-05-23 03:20:57.684 [info] pyenv is not installed
+2026-05-23 03:20:57.684 [info] Finished searching for pyenv environments: 128 milliseconds
+2026-05-23 03:20:57.685 [info] Finished searching for custom virtual envs: 128 milliseconds
+2026-05-23 03:20:57.691 [info] > conda info --json
+2026-05-23 03:20:57.705 [info] > hatch env show --json
+2026-05-23 03:20:57.705 [info] cwd: .
+2026-05-23 03:20:57.717 [info] Python interpreter path: ./.venv/bin/python
+2026-05-23 03:20:57.811 [info] Finished searching for global virtual envs: 255 milliseconds
+2026-05-23 03:20:57.836 [info] > pyenv which python
+2026-05-23 03:20:57.836 [info] cwd: .
+2026-05-23 03:20:57.880 [info] Found: /bin/python --> /bin/python3.14
+2026-05-23 03:20:57.884 [info] Found: /bin/python3 --> /bin/python3.14
+2026-05-23 03:20:57.885 [info] Found: /bin/python3.14 --> /bin/python3.14
+2026-05-23 03:20:57.895 [info] > ./.venv/bin/python -I ~/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/python_files/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/python_files/interpreterInfo.py
+2026-05-23 03:20:57.920 [info] Found: /sbin/python --> /sbin/python3.14
+2026-05-23 03:20:57.920 [info] Found: /sbin/python3 --> /sbin/python3.14
+2026-05-23 03:20:57.920 [info] Found: /sbin/python3.14 --> /sbin/python3.14
+2026-05-23 03:20:57.946 [info] Found: /usr/bin/python --> /usr/bin/python3.14
+2026-05-23 03:20:57.946 [info] Found: /usr/bin/python3 --> /usr/bin/python3.14
+2026-05-23 03:20:57.947 [info] Found: /usr/bin/python3.14 --> /usr/bin/python3.14
+2026-05-23 03:20:57.968 [info] Found: /usr/sbin/python --> /usr/sbin/python3.14
+2026-05-23 03:20:57.968 [info] Found: /usr/sbin/python3 --> /usr/sbin/python3.14
+2026-05-23 03:20:57.968 [info] Found: /usr/sbin/python3.14 --> /usr/sbin/python3.14
+2026-05-23 03:20:57.979 [info] > /bin/python -I ~/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/python_files/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/python_files/interpreterInfo.py
+2026-05-23 03:20:57.995 [info] > /sbin/python -I ~/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/python_files/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/python_files/interpreterInfo.py
+2026-05-23 03:20:58.002 [info] Finished searching for interpreters in posix paths locator: 453 milliseconds
+2026-05-23 03:20:58.011 [info] Environments refresh paths discovered (event): 463 milliseconds
+2026-05-23 03:20:58.011 [info] Environments refresh paths discovered: 463 milliseconds
+2026-05-23 03:20:58.024 [info] > /usr/bin/python -I ~/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/python_files/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/python_files/interpreterInfo.py
+2026-05-23 03:20:58.042 [info] > /usr/sbin/python -I ~/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/python_files/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/python_files/interpreterInfo.py
+2026-05-23 03:20:58.081 [info] Environments refresh finished (event): 533 milliseconds
+2026-05-23 03:20:58.089 [info] Environment refresh took 541 milliseconds
+2026-05-23 03:21:00.837 [info] > . ./.venv/bin/activate && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python ~/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/python_files/printEnvVariables.py
+2026-05-23 03:21:00.837 [info] shell: bash
+2026-05-23 03:21:00.934 [info] > . ./.venv/bin/activate && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python ~/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/python_files/printEnvVariables.py
+2026-05-23 03:21:00.934 [info] shell: bash
+2026-05-23 03:21:01.478 [info] Starting Jedi language server for Stats.

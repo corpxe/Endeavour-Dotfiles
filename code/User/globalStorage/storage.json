@@ -1,0 +1,81 @@
+{
+    "telemetry.sqmId": "",
+    "telemetry.machineId": "ce254d8655da154d2506e60e0de68c293d02c9f17964835b4ddfb55e9445c49a",
+    "telemetry.devDeviceId": "0eef72cf-f656-44e6-920e-d4ad94676ed0",
+    "backupWorkspaces": {
+        "workspaces": [],
+        "folders": [
+            {
+                "folderUri": "file:///home/corpxe/Desktop/IIT-ds/Stats"
+            }
+        ],
+        "emptyWindows": []
+    },
+    "windowControlHeight": 36,
+    "profileAssociations": {
+        "workspaces": {
+            "file:///home/corpxe/Desktop/IIT-ds": "__default__profile__",
+            "file:///home/corpxe/Desktop/IIT-ds/Stats": "__default__profile__"
+        },
+        "emptyWindows": {}
+    },
+    "theme": "vs-dark",
+    "themeBackground": "#0e1419",
+    "windowSplash": {
+        "zoomLevel": 0,
+        "baseTheme": "vs-dark",
+        "colorInfo": {
+            "foreground": "#f8f8f2",
+            "background": "#0e1419",
+            "editorBackground": "#0e1419",
+            "titleBarBackground": "#253340",
+            "activityBarBackground": "#253340",
+            "activityBarBorder": "#253340",
+            "sideBarBackground": "#0e1419",
+            "statusBarBackground": "#0e1419",
+            "statusBarBorder": "#6272a4",
+            "statusBarNoFolderBackground": "#0e1419"
+        },
+        "layoutInfo": {
+            "sideBarSide": "right",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 30,
+            "activityBarWidth": 0,
+            "sideBarWidth": 0,
+            "auxiliaryBarWidth": 0,
+            "statusBarHeight": 0,
+            "windowBorder": false
+        }
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "folder": "file:///home/corpxe/Desktop/IIT-ds/Stats",
+            "backupPath": "/home/corpxe/.config/Code - OSS/Backups/75fb70a7b44baa5a440b1fe680a1cf81",
+            "uiState": {
+                "mode": 0,
+                "x": 0,
+                "y": 0,
+                "width": 950,
+                "height": 1020,
+                "zoomLevel": 1
+            }
+        },
+        "openedWindows": []
+    },
+    "windowSplashWorkspaceOverride": {
+        "layoutInfo": {
+            "sideBarWidth": 253,
+            "auxiliaryBarWidth": 310,
+            "workspaces": {
+                "dcccad800bfe86d65e3e8f50b2f7f7f4": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "63c4a19e4c6f51d44f419df3cb6aba60": {
+                    "sideBarVisible": false,
+                    "auxiliaryBarVisible": false
+                }
+            }
+        }
+    }
+}

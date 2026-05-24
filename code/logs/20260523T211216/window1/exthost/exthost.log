@@ -1,0 +1,4 @@
+2026-05-23 21:12:20.747 [info] Extension host with pid 5716 started
+2026-05-23 21:12:20.747 [info] Skipping acquiring lock for /home/corpxe/.config/Code - OSS/User/workspaceStorage/63c4a19e4c6f51d44f419df3cb6aba60.
+2026-05-23 21:12:21.256 [info] Extension host terminating: received terminate message from renderer
+2026-05-23 21:12:21.258 [info] Extension host with pid 5716 exiting with code 0

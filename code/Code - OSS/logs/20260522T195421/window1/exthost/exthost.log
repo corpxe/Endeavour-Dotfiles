@@ -1,0 +1,143 @@
+2026-05-22 19:54:23.027 [info] Extension host with pid 2256 started
+2026-05-22 19:54:23.027 [info] Skipping acquiring lock for /home/corpxe/.config/Code - OSS/User/workspaceStorage/63c4a19e4c6f51d44f419df3cb6aba60.
+2026-05-22 19:54:23.213 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-05-22 19:54:23.242 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-05-22 19:54:23.257 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-05-22 19:54:23.268 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-05-22 19:54:23.342 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-05-22 19:54:23.672 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2026-05-22 19:54:23.675 [info] ExtensionService#_doActivateExtension formulahendry.auto-rename-tag, startup: true, activationEvent: '*'
+2026-05-22 19:54:23.703 [info] ExtensionService#_doActivateExtension ms-python.python, startup: true, activationEvent: 'workspaceContains:.venv'
+2026-05-22 19:54:23.954 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onFileSystem:ccsettings'
+2026-05-22 19:54:25.015 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2026-05-22 19:54:25.057 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-05-22 19:54:25.307 [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+2026-05-22 19:54:25.524 [info] ExtensionService#_doActivateExtension charliermarsh.ruff, startup: true, activationEvent: 'workspaceContains:*.py,*.ipynb,*.md'
+2026-05-22 19:54:25.574 [info] Eager extensions activated
+2026-05-22 19:54:25.678 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-05-22 19:54:25.681 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-05-22 19:54:25.699 [info] ExtensionService#_doActivateExtension aaron-bond.better-comments, startup: false, activationEvent: 'onStartupFinished'
+2026-05-22 19:54:25.704 [info] ExtensionService#_doActivateExtension Catppuccin.catppuccin-vsc, startup: false, activationEvent: 'onStartupFinished'
+2026-05-22 19:54:25.709 [info] ExtensionService#_doActivateExtension Catppuccin.catppuccin-vsc-icons, startup: false, activationEvent: 'onStartupFinished'
+2026-05-22 19:54:25.819 [info] ExtensionService#_doActivateExtension drcika.apc-extension, startup: false, activationEvent: 'onStartupFinished'
+2026-05-22 19:54:25.843 [error] Activating extension drcika.apc-extension failed due to an error:
+2026-05-22 19:54:25.843 [error] TypeError: Cannot read properties of undefined (reading 'filename')
+    at Object.<anonymous> (/home/corpxe/.vscode-oss/extensions/drcika.apc-extension-0.4.1-universal/dist/patch.js:17:52)
+    at Module._compile (node:internal/modules/cjs/loader:1713:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1847:10)
+    at Module.load (node:internal/modules/cjs/loader:1448:32)
+    at Module._load (node:internal/modules/cjs/loader:1270:12)
+    at Module.c._load (node:electron/js2c/node_init:2:18041)
+    at Module.i._load (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:806:6589)
+    at Module.n._load (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:652:28855)
+    at Module.n._load (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:644:25997)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:244:24)
+    at Module.require (node:internal/modules/cjs/loader:1470:12)
+    at Module.require (/usr/lib/code/extensions/copilot/dist/extension.js:494:36345)
+    at require (node:internal/modules/helpers:147:16)
+    at Object.<anonymous> (/home/corpxe/.vscode-oss/extensions/drcika.apc-extension-0.4.1-universal/dist/extension.js:7:17)
+    at Module._compile (node:internal/modules/cjs/loader:1713:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1847:10)
+    at Module.load (node:internal/modules/cjs/loader:1448:32)
+    at Module._load (node:internal/modules/cjs/loader:1270:12)
+    at Module.c._load (node:electron/js2c/node_init:2:18041)
+    at Module.i._load (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:806:6589)
+    at Module.n._load (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:652:28855)
+    at Module.n._load (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:644:25997)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:244:24)
+    at Module.require (node:internal/modules/cjs/loader:1470:12)
+    at Module.require (/usr/lib/code/extensions/copilot/dist/extension.js:494:36345)
+    at require (node:internal/modules/helpers:147:16)
+    at _P._doLoadModule (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:655:1487)
+2026-05-22 19:54:25.843 [info] ExtensionService#_doActivateExtension dsznajder.es7-react-js-snippets, startup: false, activationEvent: 'onStartupFinished'
+2026-05-22 19:54:26.387 [info] ExtensionService#_doActivateExtension eamodio.gitlens, startup: false, activationEvent: 'onStartupFinished'
+2026-05-22 19:54:26.492 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2026-05-22 19:54:26.494 [info] ExtensionService#_doActivateExtension Gruntfuggly.todo-tree, startup: false, activationEvent: 'onStartupFinished'
+2026-05-22 19:54:26.517 [info] ExtensionService#_doActivateExtension JuniorCintra.tailwind-class-wrapper, startup: false, activationEvent: 'onStartupFinished'
+2026-05-22 19:54:26.518 [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+2026-05-22 19:54:26.531 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+2026-05-22 19:54:26.536 [info] ExtensionService#_doActivateExtension tekumara.typos-vscode, startup: false, activationEvent: 'onStartupFinished'
+2026-05-22 19:54:26.562 [info] ExtensionService#_doActivateExtension usernamehw.errorlens, startup: false, activationEvent: 'onStartupFinished'
+2026-05-22 19:54:28.731 [error] Error: Failed to get copilot token. reason: NotAuthorized
+    at Bre._authShowWarnings (/usr/lib/code/extensions/copilot/dist/extension.js:1697:18732)
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at Bre.getCopilotToken (/usr/lib/code/extensions/copilot/dist/extension.js:1697:16253)
+    at Mge.getCopilotToken (/usr/lib/code/extensions/copilot/dist/extension.js:1400:7787)
+    at lpe.updateCachedToken (/usr/lib/code/extensions/copilot/dist/extension.js:2953:8746)
+2026-05-22 19:54:28.732 [error] Error: Failed to get copilot token. reason: NotAuthorized
+    at Bre._authShowWarnings (/usr/lib/code/extensions/copilot/dist/extension.js:1697:18732)
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at Bre.getCopilotToken (/usr/lib/code/extensions/copilot/dist/extension.js:1697:16253)
+    at Mge.getCopilotToken (/usr/lib/code/extensions/copilot/dist/extension.js:1400:7787)
+    at Mk._fetchModels (/usr/lib/code/extensions/copilot/dist/extension.js:6787:4399)
+2026-05-22 19:56:05.006 [info] Extension host terminating: received terminate message from renderer
+2026-05-22 19:56:05.026 [error] An error occurred when disposing the subscriptions for extension 'eamodio.gitlens':
+2026-05-22 19:56:05.042 [error] Error: Channel has been closed
+    at r (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:510:3935)
+    at Object.info (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:510:4305)
+    at Logger.info (/home/corpxe/.vscode-oss/extensions/eamodio.gitlens-17.12.2-universal/dist/gitlens.js:1567:71824)
+    at GkCliIntegrationProvider.stop (/home/corpxe/.vscode-oss/extensions/eamodio.gitlens-17.12.2-universal/dist/gitlens.js:2534:44628)
+    at GkCliIntegrationProvider.dispose (/home/corpxe/.vscode-oss/extensions/eamodio.gitlens-17.12.2-universal/dist/gitlens.js:2534:42544)
+    at /home/corpxe/.vscode-oss/extensions/eamodio.gitlens-17.12.2-universal/dist/gitlens.js:2449:60456
+    at Array.forEach (<anonymous>)
+    at Object.dispose (/home/corpxe/.vscode-oss/extensions/eamodio.gitlens-17.12.2-universal/dist/gitlens.js:2449:60437)
+    at En (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:401:736)
+    at i_._fn (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:507:18391)
+    at i_.dispose (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:401:1248)
+    at _P._deactivate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:507:14708)
+    at file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:507:12010
+    at Array.map (<anonymous>)
+    at _P._deactivateAll (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:507:11998)
+    at _P.terminate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:507:12349)
+    at i.terminate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:509:1072)
+    at Qs (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:806:11700)
+    at up.value (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:806:9847)
+    at E._deliver (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:403:3244)
+    at E.fire (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:403:3562)
+    at ls.fire (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:405:8437)
+    at MessagePortMain.<anonymous> (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:806:8082)
+    at MessagePortMain.emit (node:events:519:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2959)
+    at Object.callbackTrampoline (node:internal/async_hooks:130:17)
+2026-05-22 19:56:05.044 [error] An error occurred when disposing the subscriptions for extension 'Gruntfuggly.todo-tree':
+2026-05-22 19:56:05.045 [error] AggregateError: Encountered errors while disposing of store
+    at En (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:401:812)
+    at i_._fn (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:507:18391)
+    at i_.dispose (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:401:1248)
+    at _P._deactivate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:507:14708)
+    at file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:507:12010
+    at Array.map (<anonymous>)
+    at _P._deactivateAll (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:507:11998)
+    at _P.terminate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:507:12349)
+    at i.terminate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:509:1072)
+    at Qs (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:806:11700)
+    at up.value (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:806:9847)
+    at E._deliver (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:403:3244)
+    at E.fire (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:403:3562)
+    at ls.fire (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:405:8437)
+    at MessagePortMain.<anonymous> (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:806:8082)
+    at MessagePortMain.emit (node:events:519:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2959)
+    at Object.callbackTrampoline (node:internal/async_hooks:130:17)
+2026-05-22 19:56:05.066 [error] Error: Channel has been closed
+    at o (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:510:3524)
+    at Object.append (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:510:3621)
+    at Socket.<anonymous> (/home/corpxe/.vscode-oss/extensions/charliermarsh.ruff-2026.44.0-linux-x64/dist/webpack:/ruff/node_modules/vscode-languageclient/lib/node/main.js:430:80)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Socket.Readable.push (node:internal/streams/readable:392:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
+    at Pipe.callbackTrampoline (node:internal/async_hooks:130:17)
+2026-05-22 19:56:05.068 [error] Error: Channel has been closed
+    at o (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:510:3524)
+    at Object.appendLine (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:510:3663)
+    at b.logOutputMessage (/home/corpxe/.vscode-oss/extensions/charliermarsh.ruff-2026.44.0-linux-x64/dist/webpack:/ruff/node_modules/vscode-languageclient/lib/common/client.js:592:28)
+    at b.error (/home/corpxe/.vscode-oss/extensions/charliermarsh.ruff-2026.44.0-linux-x64/dist/webpack:/ruff/node_modules/vscode-languageclient/lib/common/client.js:589:14)
+    at ChildProcess.<anonymous> (/home/corpxe/.vscode-oss/extensions/charliermarsh.ruff-2026.44.0-linux-x64/dist/webpack:/ruff/node_modules/vscode-languageclient/lib/node/main.js:471:30)
+    at ChildProcess.emit (node:events:519:28)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+    at Process.callbackTrampoline (node:internal/async_hooks:130:17)
+2026-05-22 19:56:05.069 [info] Extension host with pid 2256 exiting with code 0

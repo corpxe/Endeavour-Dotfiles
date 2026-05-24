@@ -1,0 +1,174 @@
+Code - OSS (1.119.0, undefined, desktop)
+Jupyter Extension Version: 2025.9.1.
+Python Extension Version: 2026.4.0.
+Python Environment Extension Version: 1.30.0.
+Pylance Extension not installed.
+Platform: linux (x64).
+Home = /home/corpxe
+Temp Storage folder ~/.config/Code - OSS/User/globalStorage/ms-toolsai.jupyter/version-2025.9.1
+Workspace folder ~/Desktop/IIT-ds/Stats
+21:12:35.100 [info] Starting Kernel (Python Path: ~/Desktop/IIT-ds/Stats/.venv/bin/python, Venv, 3.14.5) for '~/Desktop/IIT-ds/Stats/Stats.ipynb' (disableUI=true)
+21:12:35.248 [info] Process Execution: ~/Desktop/IIT-ds/Stats/.venv/bin/python -m pip list
+21:12:35.262 [info] Process Execution: ~/Desktop/IIT-ds/Stats/.venv/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+21:12:35.272 [info] Process Execution: ~/Desktop/IIT-ds/Stats/.venv/bin/python -m ipykernel_launcher --f=/run/user/1000/jupyter/runtime/kernel-v305a2e83a3d348a8875ffd794b0ae2cc3d5866a1d.json
+    > cwd: ~/Desktop/IIT-ds/Stats
+21:12:35.959 [info] Kernel successfully started
+21:12:35.973 [info] Process Execution: ~/Desktop/IIT-ds/Stats/.venv/bin/python ~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.9.1-universal/pythonFiles/printJupyterDataDir.py
+21:14:37.002 [warn] No interpreter with path ~/Desktop/IIT-ds/.venv/bin/python found in Python API, will convert Uri path to string as Id ~/Desktop/IIT-ds/.venv/bin/python
+21:23:46.403 [warn] Cell completed with errors Iu [Error]: name 'plt' is not defined
+    at n.execute (~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.9.1-universal/dist/extension.node.js:302:4958) {
+  ename: 'NameError',
+  evalue: "name 'plt' is not defined",
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mNameError\x1B[39m                                 Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[1]\x1B[39m\x1B[32m, line 2\x1B[39m\n' +
+      '\x1B[32m      1\x1B[39m d = [\x1B[32m15\x1B[39m,\x1B[32m16\x1B[39m,\x1B[32m16\x1B[39m,\x1B[32m17\x1B[39m,\x1B[32m17\x1B[39m,\x1B[32m17\x1B[39m,\x1B[32m18\x1B[39m,\x1B[32m18\x1B[39m,\x1B[32m19\x1B[39m,\x1B[32m19\x1B[39m,\x1B[32m19\x1B[39m,\x1B[32m19\x1B[39m]\n' +
+      '\x1B[32m----> \x1B[39m\x1B[32m2\x1B[39m plt.hist(d, bins = \x1B[32m5\x1B[39m,edgecolor=\x1B[33m"black"\x1B[39m)\n' +
+      '\x1B[32m      3\x1B[39m plt.xlabel(\x1B[33m"Values"\x1B[39m)\n' +
+      '\x1B[32m      4\x1B[39m plt.ylabel(\x1B[33m"Frequency"\x1B[39m)\n' +
+      '\x1B[32m      5\x1B[39m plt.title(\x1B[33m"Normal distribution"\x1B[39m)\n',
+    "\x1B[31mNameError\x1B[39m: name 'plt' is not defined"
+  ]
+}
+21:26:06.246 [info] Too many pending requests 1 for kernel 567f94a2-fed2-4d7d-adee-2076e3709893, waiting for it to be ready.
+21:40:15.176 [warn] Cell completed with errors Iu [Error]: name 'pls' is not defined
+    at n.execute (~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.9.1-universal/dist/extension.node.js:302:4958) {
+  ename: 'NameError',
+  evalue: "name 'pls' is not defined",
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mNameError\x1B[39m                                 Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[56]\x1B[39m\x1B[32m, line 3\x1B[39m\n' +
+      '\x1B[32m      1\x1B[39m d2 = [\x1B[32m10\x1B[39m,\x1B[32m11\x1B[39m,\x1B[32m11\x1B[39m,\x1B[32m12\x1B[39m,\x1B[32m12\x1B[39m,\x1B[32m12\x1B[39m,\x1B[32m12\x1B[39m]\n' +
+      '\x1B[32m      2\x1B[39m plt.hist(d2,bins = \x1B[32m3\x1B[39m, color=\x1B[33m"RED"\x1B[39m)\n' +
+      '\x1B[32m----> \x1B[39m\x1B[32m3\x1B[39m pls.show()\n',
+    "\x1B[31mNameError\x1B[39m: name 'pls' is not defined"
+  ]
+}
+21:41:51.692 [warn] Cell completed with errors Iu [Error]: name 'skew' is not defined
+    at n.execute (~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.9.1-universal/dist/extension.node.js:302:4958) {
+  ename: 'NameError',
+  evalue: "name 'skew' is not defined",
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mNameError\x1B[39m                                 Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[57]\x1B[39m\x1B[32m, line 7\x1B[39m\n' +
+      '\x1B[32m      3\x1B[39m plt.xlabel(\x1B[33m"Values"\x1B[39m)\n' +
+      '\x1B[32m      4\x1B[39m plt.ylabel(\x1B[33m"Frequency"\x1B[39m)\n' +
+      '\x1B[32m      5\x1B[39m plt.title(\x1B[33m"Normal distribution"\x1B[39m)\n' +
+      '\x1B[32m      6\x1B[39m plt.show()\n' +
+      '\x1B[32m----> \x1B[39m\x1B[32m7\x1B[39m print(skew(d2))\n',
+    "\x1B[31mNameError\x1B[39m: name 'skew' is not defined"
+  ]
+}
+21:42:11.543 [warn] Cell completed with errors Iu [Error]: name 'skew' is not defined
+    at n.execute (~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.9.1-universal/dist/extension.node.js:302:4958) {
+  ename: 'NameError',
+  evalue: "name 'skew' is not defined",
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mNameError\x1B[39m                                 Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[58]\x1B[39m\x1B[32m, line 7\x1B[39m\n' +
+      '\x1B[32m      3\x1B[39m plt.xlabel(\x1B[33m"Values"\x1B[39m)\n' +
+      '\x1B[32m      4\x1B[39m plt.ylabel(\x1B[33m"Frequency"\x1B[39m)\n' +
+      '\x1B[32m      5\x1B[39m plt.title(\x1B[33m"Normal distribution"\x1B[39m)\n' +
+      '\x1B[32m      6\x1B[39m plt.show()\n' +
+      '\x1B[32m----> \x1B[39m\x1B[32m7\x1B[39m print(skew(d2))\n',
+    "\x1B[31mNameError\x1B[39m: name 'skew' is not defined"
+  ]
+}
+21:42:16.404 [warn] Cell completed with errors Iu [Error]: name 'skew' is not defined
+    at n.execute (~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.9.1-universal/dist/extension.node.js:302:4958) {
+  ename: 'NameError',
+  evalue: "name 'skew' is not defined",
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mNameError\x1B[39m                                 Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[59]\x1B[39m\x1B[32m, line 7\x1B[39m\n' +
+      '\x1B[32m      3\x1B[39m plt.xlabel(\x1B[33m"Values"\x1B[39m)\n' +
+      '\x1B[32m      4\x1B[39m plt.ylabel(\x1B[33m"Frequency"\x1B[39m)\n' +
+      '\x1B[32m      5\x1B[39m plt.title(\x1B[33m"Normal distribution"\x1B[39m)\n' +
+      '\x1B[32m      6\x1B[39m plt.show()\n' +
+      '\x1B[32m----> \x1B[39m\x1B[32m7\x1B[39m print(skew(d2))\n',
+    "\x1B[31mNameError\x1B[39m: name 'skew' is not defined"
+  ]
+}
+23:34:00.651 [warn] Cell completed with errors Iu [Error]: name 'true' is not defined
+    at n.execute (~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.9.1-universal/dist/extension.node.js:302:4958) {
+  ename: 'NameError',
+  evalue: "name 'true' is not defined",
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mNameError\x1B[39m                                 Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[73]\x1B[39m\x1B[32m, line 2\x1B[39m\n' +
+      '\x1B[32m      1\x1B[39m data = [\x1B[32m5\x1B[39m,\x1B[32m6\x1B[39m,\x1B[32m7\x1B[39m,\x1B[32m5\x1B[39m,\x1B[32m7\x1B[39m,\x1B[32m8\x1B[39m,\x1B[32m9\x1B[39m,\x1B[32m10\x1B[39m,\x1B[32m12\x1B[39m,\x1B[32m46\x1B[39m]\n' +
+      '\x1B[32m----> \x1B[39m\x1B[32m2\x1B[39m sns.histplot(data, kde = true)\n' +
+      '\x1B[32m      3\x1B[39m plt.show()\n',
+    "\x1B[31mNameError\x1B[39m: name 'true' is not defined"
+  ]
+}
+23:34:11.684 [warn] Cell completed with errors Iu [Error]: name 'true' is not defined
+    at n.execute (~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.9.1-universal/dist/extension.node.js:302:4958) {
+  ename: 'NameError',
+  evalue: "name 'true' is not defined",
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mNameError\x1B[39m                                 Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[127]\x1B[39m\x1B[32m, line 2\x1B[39m\n' +
+      '\x1B[32m      1\x1B[39m data = [\x1B[32m5\x1B[39m,\x1B[32m6\x1B[39m,\x1B[32m7\x1B[39m,\x1B[32m5\x1B[39m,\x1B[32m7\x1B[39m,\x1B[32m8\x1B[39m,\x1B[32m9\x1B[39m,\x1B[32m10\x1B[39m,\x1B[32m12\x1B[39m,\x1B[32m46\x1B[39m]\n' +
+      '\x1B[32m----> \x1B[39m\x1B[32m2\x1B[39m sns.histplot(data, kde = true)\n' +
+      '\x1B[32m      3\x1B[39m plt.show()\n',
+    "\x1B[31mNameError\x1B[39m: name 'true' is not defined"
+  ]
+}
+23:34:11.685 [warn] Cancel all remaining cells due to cancellation or failure in execution
+23:41:20.692 [warn] Cell completed with errors Iu [Error]: module 'pandas' has no attribute 'series'
+    at n.execute (~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.9.1-universal/dist/extension.node.js:302:4958) {
+  ename: 'AttributeError',
+  evalue: "module 'pandas' has no attribute 'series'",
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mAttributeError\x1B[39m                            Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[136]\x1B[39m\x1B[32m, line 6\x1B[39m\n' +
+      '\x1B[32m      2\x1B[39m \n' +
+      '\x1B[32m      3\x1B[39m data1 = [\x1B[32m10\x1B[39m,\x1B[32m12\x1B[39m,\x1B[32m13\x1B[39m,\x1B[32m14\x1B[39m,\x1B[32m15\x1B[39m,\x1B[32m17\x1B[39m,\x1B[32m45\x1B[39m]\n' +
+      '\x1B[32m      4\x1B[39m data2 = [\x1B[32m10\x1B[39m,\x1B[32m11\x1B[39m,\x1B[32m12\x1B[39m,\x1B[32m13\x1B[39m,\x1B[32m12\x1B[39m,\x1B[32m11\x1B[39m,\x1B[32m100\x1B[39m]\n' +
+      '\x1B[32m      5\x1B[39m \n' +
+      '\x1B[32m----> \x1B[39m\x1B[32m6\x1B[39m s1 = pd.series\n',
+    "\x1B[31mAttributeError\x1B[39m: module 'pandas' has no attribute 'series'"
+  ]
+}
+23:41:45.565 [info] Too many pending requests 1 for kernel 567f94a2-fed2-4d7d-adee-2076e3709893, waiting for it to be ready.
+23:42:03.243 [warn] Cell completed with errors Iu [Error]: 'Series' object has no attribute 'kutrosis'
+    at n.execute (~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.9.1-universal/dist/extension.node.js:302:4958) {
+  ename: 'AttributeError',
+  evalue: "'Series' object has no attribute 'kutrosis'",
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mAttributeError\x1B[39m                            Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[138]\x1B[39m\x1B[32m, line 9\x1B[39m\n' +
+      '\x1B[32m      5\x1B[39m \n' +
+      '\x1B[32m      6\x1B[39m s1 = pd.Series(data1)\n' +
+      '\x1B[32m      7\x1B[39m s2 = pd.Series(data2)\n' +
+      '\x1B[32m      8\x1B[39m \n' +
+      '\x1B[32m----> \x1B[39m\x1B[32m9\x1B[39m print(s1.kutrosis())\n' +
+      '\x1B[32m     10\x1B[39m print(s2.kurtosis())\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m~/Desktop/IIT-ds/Stats/.venv/lib/python3.14/site-packages/pandas/core/generic.py:6206\x1B[39m, in \x1B[36mNDFrame.__getattr__\x1B[39m\x1B[34m(self, name)\x1B[39m\n' +
+      '\x1B[32m   6202\x1B[39m             \x1B[38;5;28;01mand\x1B[39;00m name \x1B[38;5;28;01mnot\x1B[39;00m \x1B[38;5;28;01min\x1B[39;00m self._accessors\n' +
+      '\x1B[32m   6203\x1B[39m             \x1B[38;5;28;01mand\x1B[39;00m self._info_axis._can_hold_identifiers_and_holds_name(name)\n' +
+      '\x1B[32m   6204\x1B[39m         ):\n' +
+      '\x1B[32m   6205\x1B[39m             \x1B[38;5;28;01mreturn\x1B[39;00m self[name]\n' +
+      '\x1B[32m-> \x1B[39m\x1B[32m6206\x1B[39m         \x1B[38;5;28;01mreturn\x1B[39;00m object.__getattribute__(self, name)\n',
+    "\x1B[31mAttributeError\x1B[39m: 'Series' object has no attribute 'kutrosis'"
+  ]
+}
+23:43:03.817 [info] Too many pending requests 1 for kernel 567f94a2-fed2-4d7d-adee-2076e3709893, waiting for it to be ready.
+00:15:43.958 [info] Dispose Kernel '~/Desktop/IIT-ds/Stats/Stats.ipynb' associated with '~/Desktop/IIT-ds/Stats/Stats.ipynb'
+00:15:44.039 [warn] Failed to delete connection file file:///run/user/1000/jupyter/runtime/kernel-v305a2e83a3d348a8875ffd794b0ae2cc3d5866a1d.json for pid 6450 Canceled (FileSystemError): Canceled
+    at or._handleError (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:503:22145)
+    at Object.stat (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:503:19063)
+    at ou.delete (~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.9.1-universal/dist/extension.node.js:236:16320)
+    at ~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.9.1-universal/dist/extension.node.js:308:469 {
+  code: 'Unknown'
+}

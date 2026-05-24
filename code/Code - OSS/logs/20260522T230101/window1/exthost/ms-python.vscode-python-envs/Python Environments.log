@@ -1,0 +1,28 @@
+2026-05-22 23:01:08.377 [info] Python-envs extension version: 1.30.0
+2026-05-22 23:01:08.377 [info] 
+=== Python Envs Configuration Levels ===
+2026-05-22 23:01:08.377 [info] {
+  "section": "Python Envs Configuration Levels",
+  "defaultEnvManager": {
+    "workspaceFolderValue": "undefined",
+    "workspaceValue": "undefined",
+    "globalValue": "undefined",
+    "defaultValue": "ms-python.python:venv"
+  },
+  "defaultPackageManager": {
+    "workspaceFolderValue": "undefined",
+    "workspaceValue": "undefined",
+    "globalValue": "undefined",
+    "defaultValue": "ms-python.python:pip"
+  }
+}
+2026-05-22 23:01:08.377 [info] [pet] Starting Python Locator /home/corpxe/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet server
+2026-05-22 23:01:08.377 [info] Registering pyenv manager (environments will be discovered lazily)
+2026-05-22 23:01:08.377 [info] Registering pipenv manager (environments will be discovered lazily)
+2026-05-22 23:01:08.377 [info] Registering poetry manager (environments will be discovered lazily)
+2026-05-22 23:01:08.377 [error] [pet] Process error: A system error occurred (spawn /home/corpxe/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet ENOENT)
+2026-05-22 23:01:08.414 [warning] [pet] Restarting Python Environment Tools (attempt 1/3, waiting 1000ms)
+2026-05-22 23:01:09.423 [info] [pet] Starting Python Locator /home/corpxe/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet server
+2026-05-22 23:01:09.423 [info] [pet] Python Environment Tools restarted successfully
+2026-05-22 23:01:09.424 [info] [pet] configure: Sending configuration update: {"workspaceDirectories":["/home/corpxe/Desktop/IIT-ds/Stats"],"environmentDirectories":["/home/corpxe/Desktop/IIT-ds/Stats/.venv","/home/corpxe/Desktop/IIT-ds/Stats/*/.venv"],"pipenvExecutable":"pipenv","poetryExecutable":"poetry","cacheDirectory":"/home/corpxe/.config/Code - OSS/User/globalStorage/ms-python.vscode-python-envs/pythonLocator"}
+2026-05-22 23:01:09.425 [error] [pet] Process error: A system error occurred (spawn /home/corpxe/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet ENOENT)

@@ -1,0 +1,35 @@
+2026-05-23 03:21:01.015 [info] [aebc6443-996d-45c2-90f0-388ff96faa56] Native Broker enabled: false
+2026-05-23 03:21:01.097 [info] [getSessions] [all] starting
+2026-05-23 03:21:01.098 [info] [getSessions] [all] returned 0 session(s)
+2026-05-23 03:21:01.098 [info] [getSessions] [all] starting
+2026-05-23 03:21:01.098 [info] [getSessions] [all] returned 0 session(s)
+2026-05-23 03:21:01.098 [info] [getSessions] [all] starting
+2026-05-23 03:21:01.098 [info] [getSessions] [all] returned 0 session(s)
+2026-05-23 03:21:01.100 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] starting
+2026-05-23 03:21:01.100 [info] [aebc6443-996d-45c2-90f0-388ff96faa56] Native Broker enabled: false
+2026-05-23 03:21:01.108 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] returned 0 session(s)
+2026-05-23 03:21:41.608 [info] [getSessions] [all] starting
+2026-05-23 03:21:41.608 [info] [getSessions] [all] returned 0 session(s)
+2026-05-23 03:23:21.569 [info] [getSessions] [all] starting
+2026-05-23 03:23:21.569 [info] [getSessions] [all] returned 0 session(s)
+2026-05-23 03:23:40.070 [info] [getSessions] [all] starting
+2026-05-23 03:23:40.070 [info] [getSessions] [all] returned 0 session(s)
+2026-05-23 03:23:50.752 [info] [getSessions] [all] starting
+2026-05-23 03:23:50.752 [info] [getSessions] [all] returned 0 session(s)
+2026-05-23 03:35:25.292 [info] [getSessions] [all] starting
+2026-05-23 03:35:25.292 [info] [getSessions] [all] returned 0 session(s)
+2026-05-23 03:35:26.741 [info] [getSessions] [all] starting
+2026-05-23 03:35:26.741 [info] [getSessions] [all] returned 0 session(s)
+2026-05-23 03:36:02.404 [info] [getSessions] [all] starting
+2026-05-23 03:36:02.404 [info] [getSessions] [all] returned 0 session(s)
+2026-05-23 03:37:40.576 [info] [getSessions] [all] starting
+2026-05-23 03:37:40.576 [info] [getSessions] [all] returned 0 session(s)
+2026-05-23 03:38:09.244 [info] [getSessions] [all] starting
+2026-05-23 03:38:09.244 [info] [getSessions] [all] returned 0 session(s)
+2026-05-23 03:38:18.174 [info] [getSessions] [all] starting
+2026-05-23 03:38:18.174 [info] [getSessions] [all] returned 0 session(s)
+2026-05-23 03:38:30.916 [info] [getSessions] [all] starting
+2026-05-23 03:38:30.916 [info] [getSessions] [all] returned 0 session(s)
+2026-05-23 03:52:48.318 [info] [getSessions] [all] starting
+2026-05-23 03:52:48.318 [info] [getSessions] [all] returned 0 session(s)
+2026-05-23 04:44:01.707 [info] Microsoft Authentication is deactivating...

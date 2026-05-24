@@ -1,0 +1,546 @@
+2026-05-22 15:47:22.791 [info] Started local extension host with pid 29193.
+2026-05-22 15:47:23.040 [error] Extension 'ms-python.debugpy CANNOT USE these API proposals 'portsAttributes, debugVisualization, contribViewsWelcome'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2026-05-22 15:47:23.041 [error] Extension 'ms-python.python CANNOT USE these API proposals 'contribEditorContentMenu, quickPickSortByLabel, testObserver, quickPickItemTooltip, terminalDataWriteEvent, terminalExecuteCommandEvent, codeActionAI, notebookReplDocument, notebookVariableProvider'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2026-05-22 15:47:23.043 [error] Extension 'ms-python.vscode-python-envs CANNOT USE these API proposals 'terminalShellEnv, terminalDataWriteEvent, taskExecutionTerminal'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2026-05-22 15:47:23.043 [error] Extension 'ms-toolsai.jupyter CANNOT USE these API proposals 'notebookDeprecated, notebookMessaging, notebookMime, contribNotebookStaticPreloads, portsAttributes, quickPickSortByLabel, notebookKernelSource, interactiveWindow, quickPickItemTooltip, notebookExecution, notebookCellExecution, notebookVariableProvider, notebookReplDocument'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2026-05-22 15:47:23.043 [error] Extension 'ms-toolsai.jupyter-renderers CANNOT USE these API proposals 'contribNotebookStaticPreloads'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2026-05-22 15:47:24.141 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-05-22 15:47:25.476 [error] [Extension Host] (node:29193) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2026-05-22 15:47:25.477 [error] [Extension Host] (node:29193) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+2026-05-22 15:47:25.735 [error] [Extension Host] Error: Cannot find module 'source-map-support'
+Require stack:
+- /usr/lib/code/extensions/copilot/dist/extension.js
+- /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1390:15)
+    at Module.n._resolveFilename (node:electron/js2c/utility_init:2:16319)
+    at Module.n._resolveFilename (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:652:29133)
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1032:19)
+    at defaultResolve (node:internal/modules/cjs/loader:1067:31)
+    at nextStep (node:internal/modules/customization_hooks:189:26)
+    at resolve (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:655:113)
+    at nextStep (node:internal/modules/customization_hooks:189:26)
+    at resolveWithHooks (node:internal/modules/customization_hooks:395:10)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1076:25)
+    at Module._load (node:internal/modules/cjs/loader:1199:37)
+    at Module.c._load (node:electron/js2c/node_init:2:18041)
+    at Module.i._load (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:806:6589)
+    at Module.n._load (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:652:28855)
+    at Module.n._load (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:644:25997)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:244:24)
+    at Module.require (node:internal/modules/cjs/loader:1470:12)
+    at Module.require (/usr/lib/code/extensions/copilot/dist/extension.js:494:36345)
+    at require (node:internal/modules/helpers:147:16)
+    at Object.Ies [as configureDevPackages] (/usr/lib/code/extensions/copilot/dist/extension.js:7191:1396)
+    at s0n (/usr/lib/code/extensions/copilot/dist/extension.js:1166:8321)
+    at Ses (/usr/lib/code/extensions/copilot/dist/extension.js:7191:1547)
+    at Ld._callActivateOptional (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:507:18592)
+    at Ld._callActivate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:507:18302)
+    at file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:507:16276
+    at Ub._activate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:503:15965)
+    at Ub._waitForDepsThenActivate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:503:15907)
+    at Ub._initialize (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:503:15274)
+2026-05-22 15:47:25.989 [error] Cannot find module '/usr/lib/code/extensions/copilot/node_modules/@github/copilot/sdk/index.js' imported from /usr/lib/code/extensions/copilot/dist/extension.js: Error [ERR_MODULE_NOT_FOUND]: Cannot find module '/usr/lib/code/extensions/copilot/node_modules/@github/copilot/sdk/index.js' imported from /usr/lib/code/extensions/copilot/dist/extension.js
+    at finalizeResolution (node:internal/modules/esm/resolve:279:11)
+    at moduleResolve (node:internal/modules/esm/resolve:873:10)
+    at defaultResolve (node:internal/modules/esm/resolve:997:11)
+    at nextResolve (node:internal/modules/esm/hooks:748:28)
+    at resolve (data:text/javascript;base64,CglleHBvcnQgYXN5bmMgZnVuY3Rpb24gcmVzb2x2ZShzcGVjaWZpZXIsIGNvbnRleHQsIG5leHRSZXNvbHZlKSB7CgkJaWYgKHNwZWNpZmllciA9PT0gJ2ZzJykgewoJCQlyZXR1cm4gewoJCQkJZm9ybWF0OiAnYnVpbHRpbicsCgkJCQlzaG9ydENpcmN1aXQ6IHRydWUsCgkJCQl1cmw6ICdub2RlOm9yaWdpbmFsLWZzJwoJCQl9OwoJCX0KCgkJLy8gRGVmZXIgdG8gdGhlIG5leHQgaG9vayBpbiB0aGUgY2hhaW4sIHdoaWNoIHdvdWxkIGJlIHRoZQoJCS8vIE5vZGUuanMgZGVmYXVsdCByZXNvbHZlIGlmIHRoaXMgaXMgdGhlIGxhc3QgdXNlci1zcGVjaWZpZWQgbG9hZGVyLgoJCXJldHVybiBuZXh0UmVzb2x2ZShzcGVjaWZpZXIsIGNvbnRleHQpOwoJfQ==:13:10)
+    at nextResolve (node:internal/modules/esm/hooks:748:28)
+    at Hooks.resolve (node:internal/modules/esm/hooks:240:30)
+    at MessagePort.handleMessage (node:internal/modules/esm/worker:199:24)
+    at [nodejs.internal.kHybridDispatch] (node:internal/event_target:843:20)
+    at MessagePort.<anonymous> (node:internal/per_context/messageport:23:28)
+2026-05-22 15:47:26.071 [info] [perf] Render performance baseline is 23ms
+2026-05-22 15:47:26.330 [error] [ChatSessionsService] Failed to resolve sessions for provider copilotcli Cannot find module '/usr/lib/code/extensions/copilot/node_modules/@github/copilot/sdk/index.js' imported from /usr/lib/code/extensions/copilot/dist/extension.js
+2026-05-22 15:47:26.331 [error] [ChatSessionsService] Failed to resolve sessions for provider copilotcli Cannot find module '/usr/lib/code/extensions/copilot/node_modules/@github/copilot/sdk/index.js' imported from /usr/lib/code/extensions/copilot/dist/extension.js
+2026-05-22 15:47:28.499 [error] An unknown error occurred. Please consult the log for more details.
+2026-05-22 15:47:29.142 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-05-22 15:47:39.195 [error] An unknown error occurred. Please consult the log for more details.
+2026-05-22 15:48:35.565 [error] An unknown error occurred. Please consult the log for more details.
+2026-05-22 15:48:54.466 [error] An unknown error occurred. Please consult the log for more details.
+2026-05-22 15:49:15.364 [error] An unknown error occurred. Please consult the log for more details.
+2026-05-22 15:49:22.729 [error] An unknown error occurred. Please consult the log for more details.
+2026-05-22 15:49:35.817 [error] An unknown error occurred. Please consult the log for more details.
+2026-05-22 15:49:58.616 [warning] MCP migration: Failed to parse MCP config from vscode-userdata:/home/corpxe/.config/Code%20-%20OSS/User/settings.json: Expected ',' or '}' after property value in JSON at position 1214 (line 32 column 5)
+2026-05-22 15:49:58.718 [warning] MCP migration: Failed to parse MCP config from vscode-userdata:/home/corpxe/.config/Code%20-%20OSS/User/settings.json: Expected ',' or '}' after property value in JSON at position 1214 (line 32 column 5)
+2026-05-22 15:49:58.718 [warning] MCP migration: Failed to parse MCP config from vscode-userdata:/home/corpxe/.config/Code%20-%20OSS/User/settings.json: Expected ',' or '}' after property value in JSON at position 1214 (line 32 column 5)
+2026-05-22 15:50:00.489 [warning] MCP migration: Failed to parse MCP config from vscode-userdata:/home/corpxe/.config/Code%20-%20OSS/User/settings.json: Expected ',' or '}' after property value in JSON at position 1214 (line 32 column 5)
+2026-05-22 15:50:00.653 [warning] MCP migration: Failed to parse MCP config from vscode-userdata:/home/corpxe/.config/Code%20-%20OSS/User/settings.json: Expected ',' or '}' after property value in JSON at position 1214 (line 32 column 5)
+2026-05-22 15:50:00.653 [warning] MCP migration: Failed to parse MCP config from vscode-userdata:/home/corpxe/.config/Code%20-%20OSS/User/settings.json: Expected ',' or '}' after property value in JSON at position 1214 (line 32 column 5)
+2026-05-22 15:50:05.187 [error] An unknown error occurred. Please consult the log for more details.
+2026-05-22 15:50:09.412 [warning] MCP migration: Failed to parse MCP config from vscode-userdata:/home/corpxe/.config/Code%20-%20OSS/User/settings.json: Expected ',' or '}' after property value in JSON at position 1214 (line 32 column 5)
+2026-05-22 15:50:09.517 [warning] MCP migration: Failed to parse MCP config from vscode-userdata:/home/corpxe/.config/Code%20-%20OSS/User/settings.json: Expected ',' or '}' after property value in JSON at position 1214 (line 32 column 5)
+2026-05-22 15:50:09.517 [warning] MCP migration: Failed to parse MCP config from vscode-userdata:/home/corpxe/.config/Code%20-%20OSS/User/settings.json: Expected ',' or '}' after property value in JSON at position 1214 (line 32 column 5)
+2026-05-22 15:51:20.060 [warning] MCP migration: Failed to parse MCP config from vscode-userdata:/home/corpxe/.config/Code%20-%20OSS/User/settings.json: Expected ',' or '}' after property value in JSON at position 1205 (line 31 column 5)
+2026-05-22 15:51:20.161 [warning] MCP migration: Failed to parse MCP config from vscode-userdata:/home/corpxe/.config/Code%20-%20OSS/User/settings.json: Expected ',' or '}' after property value in JSON at position 1205 (line 31 column 5)
+2026-05-22 15:51:20.161 [warning] MCP migration: Failed to parse MCP config from vscode-userdata:/home/corpxe/.config/Code%20-%20OSS/User/settings.json: Expected ',' or '}' after property value in JSON at position 1205 (line 31 column 5)
+2026-05-22 15:51:21.769 [warning] MCP migration: Failed to parse MCP config from vscode-userdata:/home/corpxe/.config/Code%20-%20OSS/User/settings.json: Expected ',' or '}' after property value in JSON at position 1200 (line 30 column 5)
+2026-05-22 15:51:21.871 [warning] MCP migration: Failed to parse MCP config from vscode-userdata:/home/corpxe/.config/Code%20-%20OSS/User/settings.json: Expected ',' or '}' after property value in JSON at position 1200 (line 30 column 5)
+2026-05-22 15:51:21.872 [warning] MCP migration: Failed to parse MCP config from vscode-userdata:/home/corpxe/.config/Code%20-%20OSS/User/settings.json: Expected ',' or '}' after property value in JSON at position 1200 (line 30 column 5)
+2026-05-22 15:51:24.212 [warning] MCP migration: Failed to parse MCP config from vscode-userdata:/home/corpxe/.config/Code%20-%20OSS/User/settings.json: Expected ',' or '}' after property value in JSON at position 1200 (line 30 column 5)
+2026-05-22 15:51:24.313 [warning] MCP migration: Failed to parse MCP config from vscode-userdata:/home/corpxe/.config/Code%20-%20OSS/User/settings.json: Expected ',' or '}' after property value in JSON at position 1200 (line 30 column 5)
+2026-05-22 15:51:24.313 [warning] MCP migration: Failed to parse MCP config from vscode-userdata:/home/corpxe/.config/Code%20-%20OSS/User/settings.json: Expected ',' or '}' after property value in JSON at position 1200 (line 30 column 5)
+2026-05-22 15:51:29.852 [error] An unknown error occurred. Please consult the log for more details.
+2026-05-22 15:52:06.454 [error] An unknown error occurred. Please consult the log for more details.
+2026-05-22 15:52:07.887 [warning] MCP migration: Failed to parse MCP config from vscode-userdata:/home/corpxe/.config/Code%20-%20OSS/User/settings.json: Expected ',' or '}' after property value in JSON at position 55 (line 3 column 5)
+2026-05-22 15:52:07.988 [warning] MCP migration: Failed to parse MCP config from vscode-userdata:/home/corpxe/.config/Code%20-%20OSS/User/settings.json: Expected ',' or '}' after property value in JSON at position 55 (line 3 column 5)
+2026-05-22 15:52:07.988 [warning] MCP migration: Failed to parse MCP config from vscode-userdata:/home/corpxe/.config/Code%20-%20OSS/User/settings.json: Expected ',' or '}' after property value in JSON at position 55 (line 3 column 5)
+2026-05-22 15:52:13.782 [error] An unknown error occurred. Please consult the log for more details.
+2026-05-22 15:52:19.553 [error] An unknown error occurred. Please consult the log for more details.
+2026-05-22 15:52:41.636 [warning] Attempted to report in-progress status for unknown chat session type 'copilot-cloud-agent'
+2026-05-22 15:52:41.636 [warning] Attempted to report in-progress status for unknown chat session type 'copilotcli'
+2026-05-22 15:52:41.636 [warning] Attempted to report in-progress status for unknown chat session type 'claude-code'
+2026-05-22 15:52:42.484 [info] Started local extension host with pid 33181.
+2026-05-22 15:52:42.999 [error] Extension 'ms-python.debugpy CANNOT USE these API proposals 'portsAttributes, debugVisualization, contribViewsWelcome'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2026-05-22 15:52:42.999 [error] Extension 'ms-python.python CANNOT USE these API proposals 'contribEditorContentMenu, quickPickSortByLabel, testObserver, quickPickItemTooltip, terminalDataWriteEvent, terminalExecuteCommandEvent, codeActionAI, notebookReplDocument, notebookVariableProvider'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2026-05-22 15:52:43.000 [error] Extension 'ms-python.vscode-python-envs CANNOT USE these API proposals 'terminalShellEnv, terminalDataWriteEvent, taskExecutionTerminal'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2026-05-22 15:52:43.000 [error] Extension 'ms-toolsai.jupyter CANNOT USE these API proposals 'notebookDeprecated, notebookMessaging, notebookMime, contribNotebookStaticPreloads, portsAttributes, quickPickSortByLabel, notebookKernelSource, interactiveWindow, quickPickItemTooltip, notebookExecution, notebookCellExecution, notebookVariableProvider, notebookReplDocument'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2026-05-22 15:52:43.000 [error] Extension 'ms-toolsai.jupyter-renderers CANNOT USE these API proposals 'contribNotebookStaticPreloads'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2026-05-22 15:52:43.669 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-05-22 15:52:44.252 [error] [Extension Host] (node:33181) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2026-05-22 15:52:45.348 [info] [perf] Render performance baseline is 23ms
+2026-05-22 15:52:45.589 [error] [Extension Host] (node:33181) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+2026-05-22 15:52:45.708 [error] [Extension Host] Error: Cannot find module 'source-map-support'
+Require stack:
+- /usr/lib/code/extensions/copilot/dist/extension.js
+- /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1390:15)
+    at Module.n._resolveFilename (node:electron/js2c/utility_init:2:16319)
+    at Module.n._resolveFilename (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:652:29133)
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1032:19)
+    at defaultResolve (node:internal/modules/cjs/loader:1067:31)
+    at nextStep (node:internal/modules/customization_hooks:189:26)
+    at resolve (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:655:113)
+    at nextStep (node:internal/modules/customization_hooks:189:26)
+    at resolveWithHooks (node:internal/modules/customization_hooks:395:10)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1076:25)
+    at Module._load (node:internal/modules/cjs/loader:1199:37)
+    at Module.c._load (node:electron/js2c/node_init:2:18041)
+    at Module.i._load (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:806:6589)
+    at Module.n._load (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:652:28855)
+    at Module.n._load (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:644:25997)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:244:24)
+    at Module.require (node:internal/modules/cjs/loader:1470:12)
+    at Module.require (/usr/lib/code/extensions/copilot/dist/extension.js:494:36345)
+    at require (node:internal/modules/helpers:147:16)
+    at Object.Ies [as configureDevPackages] (/usr/lib/code/extensions/copilot/dist/extension.js:7191:1396)
+    at s0n (/usr/lib/code/extensions/copilot/dist/extension.js:1166:8321)
+    at Ses (/usr/lib/code/extensions/copilot/dist/extension.js:7191:1547)
+    at Ld._callActivateOptional (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:507:18592)
+    at Ld._callActivate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:507:18302)
+    at file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:507:16276
+    at Ub._activate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:503:15965)
+    at Ub._waitForDepsThenActivate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:503:15907)
+    at Ub._initialize (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:503:15274)
+2026-05-22 15:52:45.924 [error] Cannot find module '/usr/lib/code/extensions/copilot/node_modules/@github/copilot/sdk/index.js' imported from /usr/lib/code/extensions/copilot/dist/extension.js: Error [ERR_MODULE_NOT_FOUND]: Cannot find module '/usr/lib/code/extensions/copilot/node_modules/@github/copilot/sdk/index.js' imported from /usr/lib/code/extensions/copilot/dist/extension.js
+    at finalizeResolution (node:internal/modules/esm/resolve:279:11)
+    at moduleResolve (node:internal/modules/esm/resolve:873:10)
+    at defaultResolve (node:internal/modules/esm/resolve:997:11)
+    at nextResolve (node:internal/modules/esm/hooks:748:28)
+    at resolve (data:text/javascript;base64,CglleHBvcnQgYXN5bmMgZnVuY3Rpb24gcmVzb2x2ZShzcGVjaWZpZXIsIGNvbnRleHQsIG5leHRSZXNvbHZlKSB7CgkJaWYgKHNwZWNpZmllciA9PT0gJ2ZzJykgewoJCQlyZXR1cm4gewoJCQkJZm9ybWF0OiAnYnVpbHRpbicsCgkJCQlzaG9ydENpcmN1aXQ6IHRydWUsCgkJCQl1cmw6ICdub2RlOm9yaWdpbmFsLWZzJwoJCQl9OwoJCX0KCgkJLy8gRGVmZXIgdG8gdGhlIG5leHQgaG9vayBpbiB0aGUgY2hhaW4sIHdoaWNoIHdvdWxkIGJlIHRoZQoJCS8vIE5vZGUuanMgZGVmYXVsdCByZXNvbHZlIGlmIHRoaXMgaXMgdGhlIGxhc3QgdXNlci1zcGVjaWZpZWQgbG9hZGVyLgoJCXJldHVybiBuZXh0UmVzb2x2ZShzcGVjaWZpZXIsIGNvbnRleHQpOwoJfQ==:13:10)
+    at nextResolve (node:internal/modules/esm/hooks:748:28)
+    at Hooks.resolve (node:internal/modules/esm/hooks:240:30)
+    at MessagePort.handleMessage (node:internal/modules/esm/worker:199:24)
+    at [nodejs.internal.kHybridDispatch] (node:internal/event_target:843:20)
+    at MessagePort.<anonymous> (node:internal/per_context/messageport:23:28)
+2026-05-22 15:52:47.115 [error] [ChatSessionsService] Failed to resolve sessions for provider copilotcli Cannot find module '/usr/lib/code/extensions/copilot/node_modules/@github/copilot/sdk/index.js' imported from /usr/lib/code/extensions/copilot/dist/extension.js
+2026-05-22 15:52:47.116 [error] [ChatSessionsService] Failed to resolve sessions for provider copilotcli Cannot find module '/usr/lib/code/extensions/copilot/node_modules/@github/copilot/sdk/index.js' imported from /usr/lib/code/extensions/copilot/dist/extension.js
+2026-05-22 15:52:48.670 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-05-22 15:52:49.562 [error] An unknown error occurred. Please consult the log for more details.
+2026-05-22 15:53:17.014 [warning] MCP migration: Failed to parse MCP config from vscode-userdata:/home/corpxe/.config/Code%20-%20OSS/User/settings.json: Expected ',' or ']' after array element in JSON at position 1865 (line 54 column 17)
+2026-05-22 15:53:17.119 [warning] MCP migration: Failed to parse MCP config from vscode-userdata:/home/corpxe/.config/Code%20-%20OSS/User/settings.json: Expected ',' or ']' after array element in JSON at position 1865 (line 54 column 17)
+2026-05-22 15:53:17.121 [warning] MCP migration: Failed to parse MCP config from vscode-userdata:/home/corpxe/.config/Code%20-%20OSS/User/settings.json: Expected ',' or ']' after array element in JSON at position 1865 (line 54 column 17)
+2026-05-22 15:53:22.518 [error] An unknown error occurred. Please consult the log for more details.
+2026-05-22 15:53:24.771 [warning] MCP migration: Failed to parse MCP config from vscode-userdata:/home/corpxe/.config/Code%20-%20OSS/User/settings.json: Expected ',' or ']' after array element in JSON at position 1943 (line 54 column 17)
+2026-05-22 15:53:24.832 [warning] MCP migration: Failed to parse MCP config from vscode-userdata:/home/corpxe/.config/Code%20-%20OSS/User/settings.json: Expected ',' or ']' after array element in JSON at position 1943 (line 54 column 17)
+2026-05-22 15:53:24.833 [warning] MCP migration: Failed to parse MCP config from vscode-userdata:/home/corpxe/.config/Code%20-%20OSS/User/settings.json: Expected ',' or ']' after array element in JSON at position 1943 (line 54 column 17)
+2026-05-22 15:53:26.266 [warning] MCP migration: Failed to parse MCP config from vscode-userdata:/home/corpxe/.config/Code%20-%20OSS/User/settings.json: Expected ',' or ']' after array element in JSON at position 1987 (line 54 column 17)
+2026-05-22 15:53:26.366 [warning] MCP migration: Failed to parse MCP config from vscode-userdata:/home/corpxe/.config/Code%20-%20OSS/User/settings.json: Expected ',' or ']' after array element in JSON at position 1987 (line 54 column 17)
+2026-05-22 15:53:26.367 [warning] MCP migration: Failed to parse MCP config from vscode-userdata:/home/corpxe/.config/Code%20-%20OSS/User/settings.json: Expected ',' or ']' after array element in JSON at position 1987 (line 54 column 17)
+2026-05-22 15:53:31.585 [warning] MCP migration: Failed to parse MCP config from vscode-userdata:/home/corpxe/.config/Code%20-%20OSS/User/settings.json: Expected ',' or ']' after array element in JSON at position 1991 (line 54 column 17)
+2026-05-22 15:53:31.691 [warning] MCP migration: Failed to parse MCP config from vscode-userdata:/home/corpxe/.config/Code%20-%20OSS/User/settings.json: Expected ',' or ']' after array element in JSON at position 1991 (line 54 column 17)
+2026-05-22 15:53:31.691 [warning] MCP migration: Failed to parse MCP config from vscode-userdata:/home/corpxe/.config/Code%20-%20OSS/User/settings.json: Expected ',' or ']' after array element in JSON at position 1991 (line 54 column 17)
+2026-05-22 15:53:31.909 [error] An unknown error occurred. Please consult the log for more details.
+2026-05-22 15:53:33.828 [warning] MCP migration: Failed to parse MCP config from vscode-userdata:/home/corpxe/.config/Code%20-%20OSS/User/settings.json: Expected ',' or ']' after array element in JSON at position 1992 (line 54 column 17)
+2026-05-22 15:53:33.930 [warning] MCP migration: Failed to parse MCP config from vscode-userdata:/home/corpxe/.config/Code%20-%20OSS/User/settings.json: Expected ',' or ']' after array element in JSON at position 1992 (line 54 column 17)
+2026-05-22 15:53:33.930 [warning] MCP migration: Failed to parse MCP config from vscode-userdata:/home/corpxe/.config/Code%20-%20OSS/User/settings.json: Expected ',' or ']' after array element in JSON at position 1992 (line 54 column 17)
+2026-05-22 15:53:39.413 [error] An unknown error occurred. Please consult the log for more details.
+2026-05-22 15:53:39.437 [warning] MCP migration: Failed to parse MCP config from vscode-userdata:/home/corpxe/.config/Code%20-%20OSS/User/settings.json: Expected ',' or ']' after array element in JSON at position 2000 (line 54 column 17)
+2026-05-22 15:53:39.540 [warning] MCP migration: Failed to parse MCP config from vscode-userdata:/home/corpxe/.config/Code%20-%20OSS/User/settings.json: Expected ',' or ']' after array element in JSON at position 2000 (line 54 column 17)
+2026-05-22 15:53:39.540 [warning] MCP migration: Failed to parse MCP config from vscode-userdata:/home/corpxe/.config/Code%20-%20OSS/User/settings.json: Expected ',' or ']' after array element in JSON at position 2000 (line 54 column 17)
+2026-05-22 15:53:44.971 [error] An unknown error occurred. Please consult the log for more details.
+2026-05-22 15:54:06.560 [warning] MCP migration: Failed to parse MCP config from vscode-userdata:/home/corpxe/.config/Code%20-%20OSS/User/settings.json: Expected ',' or ']' after array element in JSON at position 2040 (line 54 column 17)
+2026-05-22 15:54:06.661 [warning] MCP migration: Failed to parse MCP config from vscode-userdata:/home/corpxe/.config/Code%20-%20OSS/User/settings.json: Expected ',' or ']' after array element in JSON at position 2040 (line 54 column 17)
+2026-05-22 15:54:06.662 [warning] MCP migration: Failed to parse MCP config from vscode-userdata:/home/corpxe/.config/Code%20-%20OSS/User/settings.json: Expected ',' or ']' after array element in JSON at position 2040 (line 54 column 17)
+2026-05-22 15:54:12.088 [error] An unknown error occurred. Please consult the log for more details.
+2026-05-22 15:54:20.328 [warning] MCP migration: Failed to parse MCP config from vscode-userdata:/home/corpxe/.config/Code%20-%20OSS/User/settings.json: Expected ',' or ']' after array element in JSON at position 2040 (line 54 column 17)
+2026-05-22 15:54:20.431 [warning] MCP migration: Failed to parse MCP config from vscode-userdata:/home/corpxe/.config/Code%20-%20OSS/User/settings.json: Expected ',' or ']' after array element in JSON at position 2040 (line 54 column 17)
+2026-05-22 15:54:20.431 [warning] MCP migration: Failed to parse MCP config from vscode-userdata:/home/corpxe/.config/Code%20-%20OSS/User/settings.json: Expected ',' or ']' after array element in JSON at position 2040 (line 54 column 17)
+2026-05-22 15:56:00.684 [warning] MCP migration: Failed to parse MCP config from vscode-userdata:/home/corpxe/.config/Code%20-%20OSS/User/settings.json: Unexpected token ',', ..."enabled": ,
+    "wor"... is not valid JSON
+2026-05-22 15:56:00.785 [warning] MCP migration: Failed to parse MCP config from vscode-userdata:/home/corpxe/.config/Code%20-%20OSS/User/settings.json: Unexpected token ',', ..."enabled": ,
+    "wor"... is not valid JSON
+2026-05-22 15:56:00.786 [warning] MCP migration: Failed to parse MCP config from vscode-userdata:/home/corpxe/.config/Code%20-%20OSS/User/settings.json: Unexpected token ',', ..."enabled": ,
+    "wor"... is not valid JSON
+2026-05-22 15:56:08.459 [error] An unknown error occurred. Please consult the log for more details.
+2026-05-22 15:56:41.331 [error] An unknown error occurred. Please consult the log for more details.
+2026-05-22 15:56:47.452 [error] An unknown error occurred. Please consult the log for more details.
+2026-05-22 15:56:50.467 [warning] Attempted to report in-progress status for unknown chat session type 'copilot-cloud-agent'
+2026-05-22 15:56:50.468 [warning] Attempted to report in-progress status for unknown chat session type 'copilotcli'
+2026-05-22 15:56:50.468 [warning] Attempted to report in-progress status for unknown chat session type 'claude-code'
+2026-05-22 15:56:51.296 [info] Started local extension host with pid 35892.
+2026-05-22 15:56:51.430 [error] Extension 'ms-python.debugpy CANNOT USE these API proposals 'portsAttributes, debugVisualization, contribViewsWelcome'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2026-05-22 15:56:51.430 [error] Extension 'ms-python.python CANNOT USE these API proposals 'contribEditorContentMenu, quickPickSortByLabel, testObserver, quickPickItemTooltip, terminalDataWriteEvent, terminalExecuteCommandEvent, codeActionAI, notebookReplDocument, notebookVariableProvider'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2026-05-22 15:56:51.430 [error] Extension 'ms-python.vscode-python-envs CANNOT USE these API proposals 'terminalShellEnv, terminalDataWriteEvent, taskExecutionTerminal'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2026-05-22 15:56:51.430 [error] Extension 'ms-toolsai.jupyter CANNOT USE these API proposals 'notebookDeprecated, notebookMessaging, notebookMime, contribNotebookStaticPreloads, portsAttributes, quickPickSortByLabel, notebookKernelSource, interactiveWindow, quickPickItemTooltip, notebookExecution, notebookCellExecution, notebookVariableProvider, notebookReplDocument'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2026-05-22 15:56:51.430 [error] Extension 'ms-toolsai.jupyter-renderers CANNOT USE these API proposals 'contribNotebookStaticPreloads'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2026-05-22 15:56:52.342 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-05-22 15:56:53.724 [error] [Extension Host] (node:35892) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2026-05-22 15:56:53.725 [error] [Extension Host] (node:35892) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+2026-05-22 15:56:53.910 [error] [Extension Host] Error: Cannot find module 'source-map-support'
+Require stack:
+- /usr/lib/code/extensions/copilot/dist/extension.js
+- /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1390:15)
+    at Module.n._resolveFilename (node:electron/js2c/utility_init:2:16319)
+    at Module.n._resolveFilename (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:652:29133)
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1032:19)
+    at defaultResolve (node:internal/modules/cjs/loader:1067:31)
+    at nextStep (node:internal/modules/customization_hooks:189:26)
+    at resolve (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:655:113)
+    at nextStep (node:internal/modules/customization_hooks:189:26)
+    at resolveWithHooks (node:internal/modules/customization_hooks:395:10)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1076:25)
+    at Module._load (node:internal/modules/cjs/loader:1199:37)
+    at Module.c._load (node:electron/js2c/node_init:2:18041)
+    at Module.i._load (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:806:6589)
+    at Module.n._load (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:652:28855)
+    at Module.n._load (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:644:25997)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:244:24)
+    at Module.require (node:internal/modules/cjs/loader:1470:12)
+    at Module.require (/usr/lib/code/extensions/copilot/dist/extension.js:494:36345)
+    at require (node:internal/modules/helpers:147:16)
+    at Object.Ies [as configureDevPackages] (/usr/lib/code/extensions/copilot/dist/extension.js:7191:1396)
+    at s0n (/usr/lib/code/extensions/copilot/dist/extension.js:1166:8321)
+    at Ses (/usr/lib/code/extensions/copilot/dist/extension.js:7191:1547)
+    at Ld._callActivateOptional (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:507:18592)
+    at Ld._callActivate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:507:18302)
+    at file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:507:16276
+    at Ub._activate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:503:15965)
+    at Ub._waitForDepsThenActivate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:503:15907)
+    at Ub._initialize (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:503:15274)
+2026-05-22 15:56:54.066 [error] Cannot find module '/usr/lib/code/extensions/copilot/node_modules/@github/copilot/sdk/index.js' imported from /usr/lib/code/extensions/copilot/dist/extension.js: Error [ERR_MODULE_NOT_FOUND]: Cannot find module '/usr/lib/code/extensions/copilot/node_modules/@github/copilot/sdk/index.js' imported from /usr/lib/code/extensions/copilot/dist/extension.js
+    at finalizeResolution (node:internal/modules/esm/resolve:279:11)
+    at moduleResolve (node:internal/modules/esm/resolve:873:10)
+    at defaultResolve (node:internal/modules/esm/resolve:997:11)
+    at nextResolve (node:internal/modules/esm/hooks:748:28)
+    at resolve (data:text/javascript;base64,CglleHBvcnQgYXN5bmMgZnVuY3Rpb24gcmVzb2x2ZShzcGVjaWZpZXIsIGNvbnRleHQsIG5leHRSZXNvbHZlKSB7CgkJaWYgKHNwZWNpZmllciA9PT0gJ2ZzJykgewoJCQlyZXR1cm4gewoJCQkJZm9ybWF0OiAnYnVpbHRpbicsCgkJCQlzaG9ydENpcmN1aXQ6IHRydWUsCgkJCQl1cmw6ICdub2RlOm9yaWdpbmFsLWZzJwoJCQl9OwoJCX0KCgkJLy8gRGVmZXIgdG8gdGhlIG5leHQgaG9vayBpbiB0aGUgY2hhaW4sIHdoaWNoIHdvdWxkIGJlIHRoZQoJCS8vIE5vZGUuanMgZGVmYXVsdCByZXNvbHZlIGlmIHRoaXMgaXMgdGhlIGxhc3QgdXNlci1zcGVjaWZpZWQgbG9hZGVyLgoJCXJldHVybiBuZXh0UmVzb2x2ZShzcGVjaWZpZXIsIGNvbnRleHQpOwoJfQ==:13:10)
+    at nextResolve (node:internal/modules/esm/hooks:748:28)
+    at Hooks.resolve (node:internal/modules/esm/hooks:240:30)
+    at MessagePort.handleMessage (node:internal/modules/esm/worker:199:24)
+    at [nodejs.internal.kHybridDispatch] (node:internal/event_target:843:20)
+    at MessagePort.<anonymous> (node:internal/per_context/messageport:23:28)
+2026-05-22 15:56:54.194 [info] [perf] Render performance baseline is 20ms
+2026-05-22 15:56:54.580 [error] [ChatSessionsService] Failed to resolve sessions for provider copilotcli Cannot find module '/usr/lib/code/extensions/copilot/node_modules/@github/copilot/sdk/index.js' imported from /usr/lib/code/extensions/copilot/dist/extension.js
+2026-05-22 15:56:54.580 [error] [ChatSessionsService] Failed to resolve sessions for provider copilotcli Cannot find module '/usr/lib/code/extensions/copilot/node_modules/@github/copilot/sdk/index.js' imported from /usr/lib/code/extensions/copilot/dist/extension.js
+2026-05-22 15:56:57.343 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-05-22 15:56:57.700 [error] An unknown error occurred. Please consult the log for more details.
+2026-05-22 15:58:33.409 [error] An unknown error occurred. Please consult the log for more details.
+2026-05-22 15:58:43.603 [error] An unknown error occurred. Please consult the log for more details.
+2026-05-22 15:59:16.403 [warning] MCP migration: Failed to parse MCP config from vscode-userdata:/home/corpxe/.config/Code%20-%20OSS/User/settings.json: Expected ',' or ']' after array element in JSON at position 2932 (line 89 column 17)
+2026-05-22 15:59:16.505 [warning] MCP migration: Failed to parse MCP config from vscode-userdata:/home/corpxe/.config/Code%20-%20OSS/User/settings.json: Expected ',' or ']' after array element in JSON at position 2932 (line 89 column 17)
+2026-05-22 15:59:16.505 [warning] MCP migration: Failed to parse MCP config from vscode-userdata:/home/corpxe/.config/Code%20-%20OSS/User/settings.json: Expected ',' or ']' after array element in JSON at position 2932 (line 89 column 17)
+2026-05-22 15:59:23.781 [warning] MCP migration: Failed to parse MCP config from vscode-userdata:/home/corpxe/.config/Code%20-%20OSS/User/settings.json: Expected ',' or ']' after array element in JSON at position 2932 (line 89 column 17)
+2026-05-22 15:59:23.882 [warning] MCP migration: Failed to parse MCP config from vscode-userdata:/home/corpxe/.config/Code%20-%20OSS/User/settings.json: Expected ',' or ']' after array element in JSON at position 2932 (line 89 column 17)
+2026-05-22 15:59:23.883 [warning] MCP migration: Failed to parse MCP config from vscode-userdata:/home/corpxe/.config/Code%20-%20OSS/User/settings.json: Expected ',' or ']' after array element in JSON at position 2932 (line 89 column 17)
+2026-05-22 15:59:29.358 [error] An unknown error occurred. Please consult the log for more details.
+2026-05-22 15:59:44.068 [warning] MCP migration: Failed to parse MCP config from vscode-userdata:/home/corpxe/.config/Code%20-%20OSS/User/settings.json: Expected ',' or ']' after array element in JSON at position 2932 (line 89 column 17)
+2026-05-22 15:59:44.169 [warning] MCP migration: Failed to parse MCP config from vscode-userdata:/home/corpxe/.config/Code%20-%20OSS/User/settings.json: Expected ',' or ']' after array element in JSON at position 2932 (line 89 column 17)
+2026-05-22 15:59:44.169 [warning] MCP migration: Failed to parse MCP config from vscode-userdata:/home/corpxe/.config/Code%20-%20OSS/User/settings.json: Expected ',' or ']' after array element in JSON at position 2932 (line 89 column 17)
+2026-05-22 15:59:45.786 [warning] Attempted to report in-progress status for unknown chat session type 'copilot-cloud-agent'
+2026-05-22 15:59:45.787 [warning] Attempted to report in-progress status for unknown chat session type 'copilotcli'
+2026-05-22 15:59:45.787 [warning] Attempted to report in-progress status for unknown chat session type 'claude-code'
+2026-05-22 15:59:46.678 [info] Started local extension host with pid 37437.
+2026-05-22 15:59:46.767 [error] Extension 'ms-python.debugpy CANNOT USE these API proposals 'portsAttributes, debugVisualization, contribViewsWelcome'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2026-05-22 15:59:46.767 [error] Extension 'ms-python.python CANNOT USE these API proposals 'contribEditorContentMenu, quickPickSortByLabel, testObserver, quickPickItemTooltip, terminalDataWriteEvent, terminalExecuteCommandEvent, codeActionAI, notebookReplDocument, notebookVariableProvider'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2026-05-22 15:59:46.767 [error] Extension 'ms-python.vscode-python-envs CANNOT USE these API proposals 'terminalShellEnv, terminalDataWriteEvent, taskExecutionTerminal'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2026-05-22 15:59:46.767 [error] Extension 'ms-toolsai.jupyter CANNOT USE these API proposals 'notebookDeprecated, notebookMessaging, notebookMime, contribNotebookStaticPreloads, portsAttributes, quickPickSortByLabel, notebookKernelSource, interactiveWindow, quickPickItemTooltip, notebookExecution, notebookCellExecution, notebookVariableProvider, notebookReplDocument'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2026-05-22 15:59:46.768 [error] Extension 'ms-toolsai.jupyter-renderers CANNOT USE these API proposals 'contribNotebookStaticPreloads'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2026-05-22 15:59:47.806 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-05-22 15:59:48.294 [error] [Extension Host] (node:37437) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2026-05-22 15:59:49.290 [warning] MCP migration: Failed to parse MCP config from vscode-userdata:/home/corpxe/.config/Code%20-%20OSS/User/settings.json: Expected ',' or ']' after array element in JSON at position 2932 (line 89 column 17)
+2026-05-22 15:59:49.485 [info] [perf] Render performance baseline is 25ms
+2026-05-22 15:59:49.519 [error] [Extension Host] (node:37437) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+2026-05-22 15:59:49.580 [error] [Extension Host] Error: Cannot find module 'source-map-support'
+Require stack:
+- /usr/lib/code/extensions/copilot/dist/extension.js
+- /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1390:15)
+    at Module.n._resolveFilename (node:electron/js2c/utility_init:2:16319)
+    at Module.n._resolveFilename (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:652:29133)
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1032:19)
+    at defaultResolve (node:internal/modules/cjs/loader:1067:31)
+    at nextStep (node:internal/modules/customization_hooks:189:26)
+    at resolve (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:655:113)
+    at nextStep (node:internal/modules/customization_hooks:189:26)
+    at resolveWithHooks (node:internal/modules/customization_hooks:395:10)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1076:25)
+    at Module._load (node:internal/modules/cjs/loader:1199:37)
+    at Module.c._load (node:electron/js2c/node_init:2:18041)
+    at Module.i._load (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:806:6589)
+    at Module.n._load (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:652:28855)
+    at Module.n._load (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:644:25997)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:244:24)
+    at Module.require (node:internal/modules/cjs/loader:1470:12)
+    at Module.require (/usr/lib/code/extensions/copilot/dist/extension.js:494:36345)
+    at require (node:internal/modules/helpers:147:16)
+    at Object.Ies [as configureDevPackages] (/usr/lib/code/extensions/copilot/dist/extension.js:7191:1396)
+    at s0n (/usr/lib/code/extensions/copilot/dist/extension.js:1166:8321)
+    at Ses (/usr/lib/code/extensions/copilot/dist/extension.js:7191:1547)
+    at Ld._callActivateOptional (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:507:18592)
+    at Ld._callActivate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:507:18302)
+    at file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:507:16276
+    at Ub._activate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:503:15965)
+    at Ub._waitForDepsThenActivate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:503:15907)
+    at Ub._initialize (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:503:15274)
+2026-05-22 15:59:49.855 [error] Cannot find module '/usr/lib/code/extensions/copilot/node_modules/@github/copilot/sdk/index.js' imported from /usr/lib/code/extensions/copilot/dist/extension.js: Error [ERR_MODULE_NOT_FOUND]: Cannot find module '/usr/lib/code/extensions/copilot/node_modules/@github/copilot/sdk/index.js' imported from /usr/lib/code/extensions/copilot/dist/extension.js
+    at finalizeResolution (node:internal/modules/esm/resolve:279:11)
+    at moduleResolve (node:internal/modules/esm/resolve:873:10)
+    at defaultResolve (node:internal/modules/esm/resolve:997:11)
+    at nextResolve (node:internal/modules/esm/hooks:748:28)
+    at resolve (data:text/javascript;base64,CglleHBvcnQgYXN5bmMgZnVuY3Rpb24gcmVzb2x2ZShzcGVjaWZpZXIsIGNvbnRleHQsIG5leHRSZXNvbHZlKSB7CgkJaWYgKHNwZWNpZmllciA9PT0gJ2ZzJykgewoJCQlyZXR1cm4gewoJCQkJZm9ybWF0OiAnYnVpbHRpbicsCgkJCQlzaG9ydENpcmN1aXQ6IHRydWUsCgkJCQl1cmw6ICdub2RlOm9yaWdpbmFsLWZzJwoJCQl9OwoJCX0KCgkJLy8gRGVmZXIgdG8gdGhlIG5leHQgaG9vayBpbiB0aGUgY2hhaW4sIHdoaWNoIHdvdWxkIGJlIHRoZQoJCS8vIE5vZGUuanMgZGVmYXVsdCByZXNvbHZlIGlmIHRoaXMgaXMgdGhlIGxhc3QgdXNlci1zcGVjaWZpZWQgbG9hZGVyLgoJCXJldHVybiBuZXh0UmVzb2x2ZShzcGVjaWZpZXIsIGNvbnRleHQpOwoJfQ==:13:10)
+    at nextResolve (node:internal/modules/esm/hooks:748:28)
+    at Hooks.resolve (node:internal/modules/esm/hooks:240:30)
+    at MessagePort.handleMessage (node:internal/modules/esm/worker:199:24)
+    at [nodejs.internal.kHybridDispatch] (node:internal/event_target:843:20)
+    at MessagePort.<anonymous> (node:internal/per_context/messageport:23:28)
+2026-05-22 15:59:50.990 [error] [ChatSessionsService] Failed to resolve sessions for provider copilotcli Cannot find module '/usr/lib/code/extensions/copilot/node_modules/@github/copilot/sdk/index.js' imported from /usr/lib/code/extensions/copilot/dist/extension.js
+2026-05-22 15:59:50.990 [error] [ChatSessionsService] Failed to resolve sessions for provider copilotcli Cannot find module '/usr/lib/code/extensions/copilot/node_modules/@github/copilot/sdk/index.js' imported from /usr/lib/code/extensions/copilot/dist/extension.js
+2026-05-22 15:59:52.807 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-05-22 15:59:53.313 [error] An unknown error occurred. Please consult the log for more details.
+2026-05-22 16:02:21.872 [error] An unknown error occurred. Please consult the log for more details.
+2026-05-22 16:03:14.575 [warning] MCP migration: Failed to parse MCP config from vscode-userdata:/home/corpxe/.config/Code%20-%20OSS/User/settings.json: Expected ',' or '}' after property value in JSON at position 83 (line 3 column 34)
+2026-05-22 16:03:14.668 [warning] MCP migration: Failed to parse MCP config from vscode-userdata:/home/corpxe/.config/Code%20-%20OSS/User/settings.json: Expected ',' or '}' after property value in JSON at position 83 (line 3 column 34)
+2026-05-22 16:03:14.669 [warning] MCP migration: Failed to parse MCP config from vscode-userdata:/home/corpxe/.config/Code%20-%20OSS/User/settings.json: Expected ',' or '}' after property value in JSON at position 83 (line 3 column 34)
+2026-05-22 16:03:18.471 [warning] MCP migration: Failed to parse MCP config from vscode-userdata:/home/corpxe/.config/Code%20-%20OSS/User/settings.json: Expected ',' or '}' after property value in JSON at position 59 (line 3 column 5)
+2026-05-22 16:03:18.573 [warning] MCP migration: Failed to parse MCP config from vscode-userdata:/home/corpxe/.config/Code%20-%20OSS/User/settings.json: Expected ',' or '}' after property value in JSON at position 59 (line 3 column 5)
+2026-05-22 16:03:18.573 [warning] MCP migration: Failed to parse MCP config from vscode-userdata:/home/corpxe/.config/Code%20-%20OSS/User/settings.json: Expected ',' or '}' after property value in JSON at position 59 (line 3 column 5)
+2026-05-22 16:03:20.565 [warning] MCP migration: Failed to parse MCP config from vscode-userdata:/home/corpxe/.config/Code%20-%20OSS/User/settings.json: Expected ',' or ']' after array element in JSON at position 2537 (line 70 column 17)
+2026-05-22 16:03:20.666 [warning] MCP migration: Failed to parse MCP config from vscode-userdata:/home/corpxe/.config/Code%20-%20OSS/User/settings.json: Expected ',' or ']' after array element in JSON at position 2537 (line 70 column 17)
+2026-05-22 16:03:20.666 [warning] MCP migration: Failed to parse MCP config from vscode-userdata:/home/corpxe/.config/Code%20-%20OSS/User/settings.json: Expected ',' or ']' after array element in JSON at position 2537 (line 70 column 17)
+2026-05-22 16:03:26.047 [error] An unknown error occurred. Please consult the log for more details.
+2026-05-22 16:03:30.682 [warning] MCP migration: Failed to parse MCP config from vscode-userdata:/home/corpxe/.config/Code%20-%20OSS/User/settings.json: Expected ',' or ']' after array element in JSON at position 2537 (line 70 column 17)
+2026-05-22 16:03:30.784 [warning] MCP migration: Failed to parse MCP config from vscode-userdata:/home/corpxe/.config/Code%20-%20OSS/User/settings.json: Expected ',' or ']' after array element in JSON at position 2537 (line 70 column 17)
+2026-05-22 16:03:30.784 [warning] MCP migration: Failed to parse MCP config from vscode-userdata:/home/corpxe/.config/Code%20-%20OSS/User/settings.json: Expected ',' or ']' after array element in JSON at position 2537 (line 70 column 17)
+2026-05-22 16:03:41.028 [warning] Attempted to report in-progress status for unknown chat session type 'copilot-cloud-agent'
+2026-05-22 16:03:41.028 [warning] Attempted to report in-progress status for unknown chat session type 'copilotcli'
+2026-05-22 16:03:41.028 [warning] Attempted to report in-progress status for unknown chat session type 'claude-code'
+2026-05-22 16:03:41.983 [info] Started local extension host with pid 39886.
+2026-05-22 16:03:42.053 [error] Extension 'ms-python.debugpy CANNOT USE these API proposals 'portsAttributes, debugVisualization, contribViewsWelcome'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2026-05-22 16:03:42.053 [error] Extension 'ms-python.python CANNOT USE these API proposals 'contribEditorContentMenu, quickPickSortByLabel, testObserver, quickPickItemTooltip, terminalDataWriteEvent, terminalExecuteCommandEvent, codeActionAI, notebookReplDocument, notebookVariableProvider'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2026-05-22 16:03:42.053 [error] Extension 'ms-python.vscode-python-envs CANNOT USE these API proposals 'terminalShellEnv, terminalDataWriteEvent, taskExecutionTerminal'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2026-05-22 16:03:42.053 [error] Extension 'ms-toolsai.jupyter CANNOT USE these API proposals 'notebookDeprecated, notebookMessaging, notebookMime, contribNotebookStaticPreloads, portsAttributes, quickPickSortByLabel, notebookKernelSource, interactiveWindow, quickPickItemTooltip, notebookExecution, notebookCellExecution, notebookVariableProvider, notebookReplDocument'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2026-05-22 16:03:42.057 [error] Extension 'ms-toolsai.jupyter-renderers CANNOT USE these API proposals 'contribNotebookStaticPreloads'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2026-05-22 16:03:43.071 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-05-22 16:03:43.502 [error] [Extension Host] (node:39886) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2026-05-22 16:03:44.575 [warning] MCP migration: Failed to parse MCP config from vscode-userdata:/home/corpxe/.config/Code%20-%20OSS/User/settings.json: Expected ',' or ']' after array element in JSON at position 2537 (line 70 column 17)
+2026-05-22 16:03:44.859 [info] [perf] Render performance baseline is 20ms
+2026-05-22 16:03:45.365 [error] [Extension Host] (node:39886) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+2026-05-22 16:03:46.114 [error] [Extension Host] Error: Cannot find module 'source-map-support'
+Require stack:
+- /usr/lib/code/extensions/copilot/dist/extension.js
+- /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1390:15)
+    at Module.n._resolveFilename (node:electron/js2c/utility_init:2:16319)
+    at Module.n._resolveFilename (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:652:29133)
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1032:19)
+    at defaultResolve (node:internal/modules/cjs/loader:1067:31)
+    at nextStep (node:internal/modules/customization_hooks:189:26)
+    at resolve (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:655:113)
+    at nextStep (node:internal/modules/customization_hooks:189:26)
+    at resolveWithHooks (node:internal/modules/customization_hooks:395:10)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1076:25)
+    at Module._load (node:internal/modules/cjs/loader:1199:37)
+    at Module.c._load (node:electron/js2c/node_init:2:18041)
+    at Module.i._load (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:806:6589)
+    at Module.n._load (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:652:28855)
+    at Module.n._load (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:644:25997)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:244:24)
+    at Module.require (node:internal/modules/cjs/loader:1470:12)
+    at Module.require (/usr/lib/code/extensions/copilot/dist/extension.js:494:36345)
+    at require (node:internal/modules/helpers:147:16)
+    at Object.Ies [as configureDevPackages] (/usr/lib/code/extensions/copilot/dist/extension.js:7191:1396)
+    at s0n (/usr/lib/code/extensions/copilot/dist/extension.js:1166:8321)
+    at Ses (/usr/lib/code/extensions/copilot/dist/extension.js:7191:1547)
+    at Ld._callActivateOptional (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:507:18592)
+    at Ld._callActivate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:507:18302)
+    at file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:507:16276
+    at Ub._activate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:503:15965)
+    at Ub._waitForDepsThenActivate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:503:15907)
+    at Ub._initialize (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:503:15274)
+2026-05-22 16:03:46.322 [error] Cannot find module '/usr/lib/code/extensions/copilot/node_modules/@github/copilot/sdk/index.js' imported from /usr/lib/code/extensions/copilot/dist/extension.js: Error [ERR_MODULE_NOT_FOUND]: Cannot find module '/usr/lib/code/extensions/copilot/node_modules/@github/copilot/sdk/index.js' imported from /usr/lib/code/extensions/copilot/dist/extension.js
+    at finalizeResolution (node:internal/modules/esm/resolve:279:11)
+    at moduleResolve (node:internal/modules/esm/resolve:873:10)
+    at defaultResolve (node:internal/modules/esm/resolve:997:11)
+    at nextResolve (node:internal/modules/esm/hooks:748:28)
+    at resolve (data:text/javascript;base64,CglleHBvcnQgYXN5bmMgZnVuY3Rpb24gcmVzb2x2ZShzcGVjaWZpZXIsIGNvbnRleHQsIG5leHRSZXNvbHZlKSB7CgkJaWYgKHNwZWNpZmllciA9PT0gJ2ZzJykgewoJCQlyZXR1cm4gewoJCQkJZm9ybWF0OiAnYnVpbHRpbicsCgkJCQlzaG9ydENpcmN1aXQ6IHRydWUsCgkJCQl1cmw6ICdub2RlOm9yaWdpbmFsLWZzJwoJCQl9OwoJCX0KCgkJLy8gRGVmZXIgdG8gdGhlIG5leHQgaG9vayBpbiB0aGUgY2hhaW4sIHdoaWNoIHdvdWxkIGJlIHRoZQoJCS8vIE5vZGUuanMgZGVmYXVsdCByZXNvbHZlIGlmIHRoaXMgaXMgdGhlIGxhc3QgdXNlci1zcGVjaWZpZWQgbG9hZGVyLgoJCXJldHVybiBuZXh0UmVzb2x2ZShzcGVjaWZpZXIsIGNvbnRleHQpOwoJfQ==:13:10)
+    at nextResolve (node:internal/modules/esm/hooks:748:28)
+    at Hooks.resolve (node:internal/modules/esm/hooks:240:30)
+    at MessagePort.handleMessage (node:internal/modules/esm/worker:199:24)
+    at [nodejs.internal.kHybridDispatch] (node:internal/event_target:843:20)
+    at MessagePort.<anonymous> (node:internal/per_context/messageport:23:28)
+2026-05-22 16:03:46.679 [error] [ChatSessionsService] Failed to resolve sessions for provider copilotcli Cannot find module '/usr/lib/code/extensions/copilot/node_modules/@github/copilot/sdk/index.js' imported from /usr/lib/code/extensions/copilot/dist/extension.js
+2026-05-22 16:03:46.679 [error] [ChatSessionsService] Failed to resolve sessions for provider copilotcli Cannot find module '/usr/lib/code/extensions/copilot/node_modules/@github/copilot/sdk/index.js' imported from /usr/lib/code/extensions/copilot/dist/extension.js
+2026-05-22 16:03:48.072 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-05-22 16:03:49.176 [error] An unknown error occurred. Please consult the log for more details.
+2026-05-22 16:04:21.764 [warning] MCP migration: Failed to parse MCP config from vscode-userdata:/home/corpxe/.config/Code%20-%20OSS/User/settings.json: Expected ',' or ']' after array element in JSON at position 2582 (line 71 column 17)
+2026-05-22 16:04:21.865 [warning] MCP migration: Failed to parse MCP config from vscode-userdata:/home/corpxe/.config/Code%20-%20OSS/User/settings.json: Expected ',' or ']' after array element in JSON at position 2582 (line 71 column 17)
+2026-05-22 16:04:21.866 [warning] MCP migration: Failed to parse MCP config from vscode-userdata:/home/corpxe/.config/Code%20-%20OSS/User/settings.json: Expected ',' or ']' after array element in JSON at position 2582 (line 71 column 17)
+2026-05-22 16:04:28.517 [error] An unknown error occurred. Please consult the log for more details.
+2026-05-22 16:04:56.356 [error] An unknown error occurred. Please consult the log for more details.
+2026-05-22 16:04:57.042 [warning] MCP migration: Failed to parse MCP config from vscode-userdata:/home/corpxe/.config/Code%20-%20OSS/User/settings.json: Expected ',' or ']' after array element in JSON at position 2582 (line 71 column 17)
+2026-05-22 16:04:57.139 [warning] MCP migration: Failed to parse MCP config from vscode-userdata:/home/corpxe/.config/Code%20-%20OSS/User/settings.json: Expected ',' or ']' after array element in JSON at position 2582 (line 71 column 17)
+2026-05-22 16:04:57.140 [warning] MCP migration: Failed to parse MCP config from vscode-userdata:/home/corpxe/.config/Code%20-%20OSS/User/settings.json: Expected ',' or ']' after array element in JSON at position 2582 (line 71 column 17)
+2026-05-22 16:05:02.577 [warning] MCP migration: Failed to parse MCP config from vscode-userdata:/home/corpxe/.config/Code%20-%20OSS/User/settings.json: Expected ',' or '}' after property value in JSON at position 2663 (line 87 column 5)
+2026-05-22 16:05:02.635 [error] An unknown error occurred. Please consult the log for more details.
+2026-05-22 16:05:02.682 [warning] MCP migration: Failed to parse MCP config from vscode-userdata:/home/corpxe/.config/Code%20-%20OSS/User/settings.json: Expected ',' or '}' after property value in JSON at position 2663 (line 87 column 5)
+2026-05-22 16:05:02.683 [warning] MCP migration: Failed to parse MCP config from vscode-userdata:/home/corpxe/.config/Code%20-%20OSS/User/settings.json: Expected ',' or '}' after property value in JSON at position 2663 (line 87 column 5)
+2026-05-22 16:05:08.071 [error] An unknown error occurred. Please consult the log for more details.
+2026-05-22 16:05:18.915 [error] An unknown error occurred. Please consult the log for more details.
+2026-05-22 16:05:36.581 [error] An unknown error occurred. Please consult the log for more details.
+2026-05-22 16:05:37.758 [warning] Attempted to report in-progress status for unknown chat session type 'copilot-cloud-agent'
+2026-05-22 16:05:37.758 [warning] Attempted to report in-progress status for unknown chat session type 'copilotcli'
+2026-05-22 16:05:37.759 [warning] Attempted to report in-progress status for unknown chat session type 'claude-code'
+2026-05-22 16:05:38.662 [info] Started local extension host with pid 40923.
+2026-05-22 16:05:38.806 [error] Extension 'ms-python.debugpy CANNOT USE these API proposals 'portsAttributes, debugVisualization, contribViewsWelcome'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2026-05-22 16:05:38.807 [error] Extension 'ms-python.python CANNOT USE these API proposals 'contribEditorContentMenu, quickPickSortByLabel, testObserver, quickPickItemTooltip, terminalDataWriteEvent, terminalExecuteCommandEvent, codeActionAI, notebookReplDocument, notebookVariableProvider'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2026-05-22 16:05:38.807 [error] Extension 'ms-python.vscode-python-envs CANNOT USE these API proposals 'terminalShellEnv, terminalDataWriteEvent, taskExecutionTerminal'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2026-05-22 16:05:38.807 [error] Extension 'ms-toolsai.jupyter CANNOT USE these API proposals 'notebookDeprecated, notebookMessaging, notebookMime, contribNotebookStaticPreloads, portsAttributes, quickPickSortByLabel, notebookKernelSource, interactiveWindow, quickPickItemTooltip, notebookExecution, notebookCellExecution, notebookVariableProvider, notebookReplDocument'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2026-05-22 16:05:38.807 [error] Extension 'ms-toolsai.jupyter-renderers CANNOT USE these API proposals 'contribNotebookStaticPreloads'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2026-05-22 16:05:39.736 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-05-22 16:05:40.130 [error] [Extension Host] (node:40923) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2026-05-22 16:05:41.497 [info] [perf] Render performance baseline is 23ms
+2026-05-22 16:05:41.950 [error] [Extension Host] (node:40923) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+2026-05-22 16:05:42.693 [error] [Extension Host] Error: Cannot find module 'source-map-support'
+Require stack:
+- /usr/lib/code/extensions/copilot/dist/extension.js
+- /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1390:15)
+    at Module.n._resolveFilename (node:electron/js2c/utility_init:2:16319)
+    at Module.n._resolveFilename (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:652:29133)
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1032:19)
+    at defaultResolve (node:internal/modules/cjs/loader:1067:31)
+    at nextStep (node:internal/modules/customization_hooks:189:26)
+    at resolve (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:655:113)
+    at nextStep (node:internal/modules/customization_hooks:189:26)
+    at resolveWithHooks (node:internal/modules/customization_hooks:395:10)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1076:25)
+    at Module._load (node:internal/modules/cjs/loader:1199:37)
+    at Module.c._load (node:electron/js2c/node_init:2:18041)
+    at Module.i._load (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:806:6589)
+    at Module.n._load (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:652:28855)
+    at Module.n._load (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:644:25997)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:244:24)
+    at Module.require (node:internal/modules/cjs/loader:1470:12)
+    at Module.require (/usr/lib/code/extensions/copilot/dist/extension.js:494:36345)
+    at require (node:internal/modules/helpers:147:16)
+    at Object.Ies [as configureDevPackages] (/usr/lib/code/extensions/copilot/dist/extension.js:7191:1396)
+    at s0n (/usr/lib/code/extensions/copilot/dist/extension.js:1166:8321)
+    at Ses (/usr/lib/code/extensions/copilot/dist/extension.js:7191:1547)
+    at Ld._callActivateOptional (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:507:18592)
+    at Ld._callActivate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:507:18302)
+    at file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:507:16276
+    at Ub._activate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:503:15965)
+    at Ub._waitForDepsThenActivate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:503:15907)
+    at Ub._initialize (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:503:15274)
+2026-05-22 16:05:42.913 [error] Cannot find module '/usr/lib/code/extensions/copilot/node_modules/@github/copilot/sdk/index.js' imported from /usr/lib/code/extensions/copilot/dist/extension.js: Error [ERR_MODULE_NOT_FOUND]: Cannot find module '/usr/lib/code/extensions/copilot/node_modules/@github/copilot/sdk/index.js' imported from /usr/lib/code/extensions/copilot/dist/extension.js
+    at finalizeResolution (node:internal/modules/esm/resolve:279:11)
+    at moduleResolve (node:internal/modules/esm/resolve:873:10)
+    at defaultResolve (node:internal/modules/esm/resolve:997:11)
+    at nextResolve (node:internal/modules/esm/hooks:748:28)
+    at resolve (data:text/javascript;base64,CglleHBvcnQgYXN5bmMgZnVuY3Rpb24gcmVzb2x2ZShzcGVjaWZpZXIsIGNvbnRleHQsIG5leHRSZXNvbHZlKSB7CgkJaWYgKHNwZWNpZmllciA9PT0gJ2ZzJykgewoJCQlyZXR1cm4gewoJCQkJZm9ybWF0OiAnYnVpbHRpbicsCgkJCQlzaG9ydENpcmN1aXQ6IHRydWUsCgkJCQl1cmw6ICdub2RlOm9yaWdpbmFsLWZzJwoJCQl9OwoJCX0KCgkJLy8gRGVmZXIgdG8gdGhlIG5leHQgaG9vayBpbiB0aGUgY2hhaW4sIHdoaWNoIHdvdWxkIGJlIHRoZQoJCS8vIE5vZGUuanMgZGVmYXVsdCByZXNvbHZlIGlmIHRoaXMgaXMgdGhlIGxhc3QgdXNlci1zcGVjaWZpZWQgbG9hZGVyLgoJCXJldHVybiBuZXh0UmVzb2x2ZShzcGVjaWZpZXIsIGNvbnRleHQpOwoJfQ==:13:10)
+    at nextResolve (node:internal/modules/esm/hooks:748:28)
+    at Hooks.resolve (node:internal/modules/esm/hooks:240:30)
+    at MessagePort.handleMessage (node:internal/modules/esm/worker:199:24)
+    at [nodejs.internal.kHybridDispatch] (node:internal/event_target:843:20)
+    at MessagePort.<anonymous> (node:internal/per_context/messageport:23:28)
+2026-05-22 16:05:43.262 [error] [ChatSessionsService] Failed to resolve sessions for provider copilotcli Cannot find module '/usr/lib/code/extensions/copilot/node_modules/@github/copilot/sdk/index.js' imported from /usr/lib/code/extensions/copilot/dist/extension.js
+2026-05-22 16:05:43.262 [error] [ChatSessionsService] Failed to resolve sessions for provider copilotcli Cannot find module '/usr/lib/code/extensions/copilot/node_modules/@github/copilot/sdk/index.js' imported from /usr/lib/code/extensions/copilot/dist/extension.js
+2026-05-22 16:05:44.737 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-05-22 16:05:45.418 [error] An unknown error occurred. Please consult the log for more details.
+2026-05-22 16:08:03.988 [error] An unknown error occurred. Please consult the log for more details.
+2026-05-22 16:08:13.218 [error] An unknown error occurred. Please consult the log for more details.
+2026-05-22 16:08:20.307 [warning] Attempted to report in-progress status for unknown chat session type 'copilot-cloud-agent'
+2026-05-22 16:08:20.307 [warning] Attempted to report in-progress status for unknown chat session type 'copilotcli'
+2026-05-22 16:08:20.307 [warning] Attempted to report in-progress status for unknown chat session type 'claude-code'
+2026-05-22 16:08:21.151 [info] Started local extension host with pid 42244.
+2026-05-22 16:08:21.223 [error] Extension 'ms-python.debugpy CANNOT USE these API proposals 'portsAttributes, debugVisualization, contribViewsWelcome'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2026-05-22 16:08:21.224 [error] Extension 'ms-python.python CANNOT USE these API proposals 'contribEditorContentMenu, quickPickSortByLabel, testObserver, quickPickItemTooltip, terminalDataWriteEvent, terminalExecuteCommandEvent, codeActionAI, notebookReplDocument, notebookVariableProvider'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2026-05-22 16:08:21.224 [error] Extension 'ms-python.vscode-python-envs CANNOT USE these API proposals 'terminalShellEnv, terminalDataWriteEvent, taskExecutionTerminal'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2026-05-22 16:08:21.224 [error] Extension 'ms-toolsai.jupyter CANNOT USE these API proposals 'notebookDeprecated, notebookMessaging, notebookMime, contribNotebookStaticPreloads, portsAttributes, quickPickSortByLabel, notebookKernelSource, interactiveWindow, quickPickItemTooltip, notebookExecution, notebookCellExecution, notebookVariableProvider, notebookReplDocument'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2026-05-22 16:08:21.224 [error] Extension 'ms-toolsai.jupyter-renderers CANNOT USE these API proposals 'contribNotebookStaticPreloads'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2026-05-22 16:08:22.128 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-05-22 16:08:22.582 [error] [Extension Host] (node:42244) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2026-05-22 16:08:23.953 [info] [perf] Render performance baseline is 21ms
+2026-05-22 16:08:24.265 [error] [Extension Host] (node:42244) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+2026-05-22 16:08:24.429 [error] [Extension Host] Error: Cannot find module 'source-map-support'
+Require stack:
+- /usr/lib/code/extensions/copilot/dist/extension.js
+- /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1390:15)
+    at Module.n._resolveFilename (node:electron/js2c/utility_init:2:16319)
+    at Module.n._resolveFilename (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:652:29133)
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1032:19)
+    at defaultResolve (node:internal/modules/cjs/loader:1067:31)
+    at nextStep (node:internal/modules/customization_hooks:189:26)
+    at resolve (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:655:113)
+    at nextStep (node:internal/modules/customization_hooks:189:26)
+    at resolveWithHooks (node:internal/modules/customization_hooks:395:10)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1076:25)
+    at Module._load (node:internal/modules/cjs/loader:1199:37)
+    at Module.c._load (node:electron/js2c/node_init:2:18041)
+    at Module.i._load (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:806:6589)
+    at Module.n._load (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:652:28855)
+    at Module.n._load (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:644:25997)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:244:24)
+    at Module.require (node:internal/modules/cjs/loader:1470:12)
+    at Module.require (/usr/lib/code/extensions/copilot/dist/extension.js:494:36345)
+    at require (node:internal/modules/helpers:147:16)
+    at Object.Ies [as configureDevPackages] (/usr/lib/code/extensions/copilot/dist/extension.js:7191:1396)
+    at s0n (/usr/lib/code/extensions/copilot/dist/extension.js:1166:8321)
+    at Ses (/usr/lib/code/extensions/copilot/dist/extension.js:7191:1547)
+    at Ld._callActivateOptional (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:507:18592)
+    at Ld._callActivate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:507:18302)
+    at file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:507:16276
+    at Ub._activate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:503:15965)
+    at Ub._waitForDepsThenActivate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:503:15907)
+    at Ub._initialize (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:503:15274)
+2026-05-22 16:08:24.628 [error] Cannot find module '/usr/lib/code/extensions/copilot/node_modules/@github/copilot/sdk/index.js' imported from /usr/lib/code/extensions/copilot/dist/extension.js: Error [ERR_MODULE_NOT_FOUND]: Cannot find module '/usr/lib/code/extensions/copilot/node_modules/@github/copilot/sdk/index.js' imported from /usr/lib/code/extensions/copilot/dist/extension.js
+    at finalizeResolution (node:internal/modules/esm/resolve:279:11)
+    at moduleResolve (node:internal/modules/esm/resolve:873:10)
+    at defaultResolve (node:internal/modules/esm/resolve:997:11)
+    at nextResolve (node:internal/modules/esm/hooks:748:28)
+    at resolve (data:text/javascript;base64,CglleHBvcnQgYXN5bmMgZnVuY3Rpb24gcmVzb2x2ZShzcGVjaWZpZXIsIGNvbnRleHQsIG5leHRSZXNvbHZlKSB7CgkJaWYgKHNwZWNpZmllciA9PT0gJ2ZzJykgewoJCQlyZXR1cm4gewoJCQkJZm9ybWF0OiAnYnVpbHRpbicsCgkJCQlzaG9ydENpcmN1aXQ6IHRydWUsCgkJCQl1cmw6ICdub2RlOm9yaWdpbmFsLWZzJwoJCQl9OwoJCX0KCgkJLy8gRGVmZXIgdG8gdGhlIG5leHQgaG9vayBpbiB0aGUgY2hhaW4sIHdoaWNoIHdvdWxkIGJlIHRoZQoJCS8vIE5vZGUuanMgZGVmYXVsdCByZXNvbHZlIGlmIHRoaXMgaXMgdGhlIGxhc3QgdXNlci1zcGVjaWZpZWQgbG9hZGVyLgoJCXJldHVybiBuZXh0UmVzb2x2ZShzcGVjaWZpZXIsIGNvbnRleHQpOwoJfQ==:13:10)
+    at nextResolve (node:internal/modules/esm/hooks:748:28)
+    at Hooks.resolve (node:internal/modules/esm/hooks:240:30)
+    at MessagePort.handleMessage (node:internal/modules/esm/worker:199:24)
+    at [nodejs.internal.kHybridDispatch] (node:internal/event_target:843:20)
+    at MessagePort.<anonymous> (node:internal/per_context/messageport:23:28)
+2026-05-22 16:08:25.455 [error] [ChatSessionsService] Failed to resolve sessions for provider copilotcli Cannot find module '/usr/lib/code/extensions/copilot/node_modules/@github/copilot/sdk/index.js' imported from /usr/lib/code/extensions/copilot/dist/extension.js
+2026-05-22 16:08:25.455 [error] [ChatSessionsService] Failed to resolve sessions for provider copilotcli Cannot find module '/usr/lib/code/extensions/copilot/node_modules/@github/copilot/sdk/index.js' imported from /usr/lib/code/extensions/copilot/dist/extension.js
+2026-05-22 16:08:27.129 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-05-22 16:08:27.685 [error] An unknown error occurred. Please consult the log for more details.

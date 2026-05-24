@@ -1,0 +1,13 @@
+Code - OSS (1.119.0, undefined, desktop)
+Jupyter Extension Version: 2025.9.1.
+Python Extension Version: 2026.4.0.
+Python Environment Extension Version: 1.30.0.
+Pylance Extension not installed.
+Platform: linux (x64).
+Home = /home/corpxe
+Temp Storage folder ~/.config/Code - OSS/User/globalStorage/ms-toolsai.jupyter/version-2025.9.1
+Workspace folder ~/Desktop/IIT-ds/Stats
+15:52:45.680 [warn] No interpreter with path ~/Desktop/IIT-ds/.venv/bin/python found in Python API, will convert Uri path to string as Id ~/Desktop/IIT-ds/.venv/bin/python
+15:52:47.414 [warn] The following kernels use interpreters that are no longer valid or not recognized by Python extension, Kernels startUsingLocalKernelSpec:'id=.undefined.-xfrozen_modules=off.~/Desktop/IIT-ds/.venv/python.~/Desktop/IIT-ds/.venv/python.-xfrozen_modules=off#-m#ipykernel_launcher'(interpreterId='~/Desktop/IIT-ds/.venv/bin/python') and valid interpreter ids include /bin/python, /sbin/python, /usr/bin/python, /usr/sbin/python, ~/Desktop/IIT-ds/Stats/.venv/bin/python
+15:52:47.414 [warn] Disposing old controller startUsingLocalKernelSpec:'.undefined.-xfrozen_modules=off.~/Desktop/IIT-ds/.venv/python.~/Desktop/IIT-ds/.venv/python.-xfrozen_modules=off#-m#ipykernel_launcher' for view = 'jupyter-notebook'
+15:52:47.415 [warn] Disposing old controller startUsingLocalKernelSpec:'.undefined.-xfrozen_modules=off.~/Desktop/IIT-ds/.venv/python.~/Desktop/IIT-ds/.venv/python.-xfrozen_modules=off#-m#ipykernel_launcher (Interactive)' for view = 'interactive'

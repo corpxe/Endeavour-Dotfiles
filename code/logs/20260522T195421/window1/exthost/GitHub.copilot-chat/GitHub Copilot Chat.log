@@ -1,0 +1,55 @@
+2026-05-22 19:54:25.499 [info] [GitExtensionServiceImpl] Initializing Git extension service.
+2026-05-22 19:54:25.499 [info] ConversationFeature: Waiting for copilot token to activate conversation feature
+2026-05-22 19:54:25.499 [error] [CopilotCLISession] Failed to load @github/copilot/sdk: Error: Cannot find module '/usr/lib/code/extensions/copilot/node_modules/@github/copilot/sdk/index.js' imported from /usr/lib/code/extensions/copilot/dist/extension.js
+2026-05-22 19:54:25.499 [error] [CopilotCLISession] Failed to load @github/copilot/sdk: Error: Cannot find module '/usr/lib/code/extensions/copilot/node_modules/@github/copilot/sdk/index.js' imported from /usr/lib/code/extensions/copilot/dist/extension.js
+2026-05-22 19:54:25.499 [error] [CopilotCLISession] Failed to load @github/copilot/sdk: Error: Cannot find module '/usr/lib/code/extensions/copilot/node_modules/@github/copilot/sdk/index.js' imported from /usr/lib/code/extensions/copilot/dist/extension.js
+2026-05-22 19:54:25.499 [error] [CopilotCLISDK] Failed to initialize logger: Error: Cannot find module '/usr/lib/code/extensions/copilot/node_modules/@github/copilot/sdk/index.js' imported from /usr/lib/code/extensions/copilot/dist/extension.js
+2026-05-22 19:54:25.499 [error] [CopilotCLIModels] Failed to fetch available models: Error: Cannot find module '/usr/lib/code/extensions/copilot/node_modules/@github/copilot/sdk/index.js' imported from /usr/lib/code/extensions/copilot/dist/extension.js
+2026-05-22 19:54:25.499 [error] [CopilotCLIAgents] Failed to fetch custom agents: Error: Cannot find module '/usr/lib/code/extensions/copilot/node_modules/@github/copilot/sdk/index.js' imported from /usr/lib/code/extensions/copilot/dist/extension.js
+2026-05-22 19:54:25.499 [error] [CopilotCLISession] Failed to load @github/copilot/sdk: Error: Cannot find module '/usr/lib/code/extensions/copilot/node_modules/@github/copilot/sdk/index.js' imported from /usr/lib/code/extensions/copilot/dist/extension.js
+2026-05-22 19:54:25.499 [error] Failed to initialize Copilot CLI Session Manager: Error: Cannot find module '/usr/lib/code/extensions/copilot/node_modules/@github/copilot/sdk/index.js' imported from /usr/lib/code/extensions/copilot/dist/extension.js
+2026-05-22 19:54:25.499 [error] Failed to get all sessions: Error: Cannot find module '/usr/lib/code/extensions/copilot/node_modules/@github/copilot/sdk/index.js' imported from /usr/lib/code/extensions/copilot/dist/extension.js
+2026-05-22 19:54:25.499 [info] [GitExtensionServiceImpl] Successfully activated the vscode.git extension.
+2026-05-22 19:54:25.499 [info] [GitExtensionServiceImpl] Enablement state of the vscode.git extension: true.
+2026-05-22 19:54:25.499 [info] [GitExtensionServiceImpl] Successfully registered Git commit message provider.
+2026-05-22 19:54:25.499 [info] [CopilotCLI] Cleaned up 1 stale lock file(s).
+2026-05-22 19:54:25.499 [info] [CopilotCLI] MCP server started. Lock file: /home/corpxe/.copilot/ide/6b0776ee-15c3-4785-8e51-82a050deedcf.lock
+2026-05-22 19:54:25.499 [info] [CopilotCLI] Server URI: unix:/tmp/mcp-a8ATHT/mcp.sock#%2Fmcp
+2026-05-22 19:54:25.499 [info] Logged in as corpxe
+2026-05-22 19:54:25.499 [info] Using the Electron fetcher.
+2026-05-22 19:54:26.582 [error] Failed to get all sessions: Error: Cannot find module '/usr/lib/code/extensions/copilot/node_modules/@github/copilot/sdk/index.js' imported from /usr/lib/code/extensions/copilot/dist/extension.js
+2026-05-22 19:54:26.592 [info] FetcherService: electron-fetch failed with status: 404 
+2026-05-22 19:54:27.306 [info] FetcherService: node-fetch failed with status: 404 
+2026-05-22 19:54:27.722 [info] FetcherService: node-http failed with status: 404 Not Found
+2026-05-22 19:54:27.724 [warning] Failed to get copilot token due to status 404 
+2026-05-22 19:54:27.724 [warning] Failed to get copilot token due to: Not Found
+2026-05-22 19:54:27.729 [error] Error: Failed to get copilot token. reason: NotAuthorized
+    at Bre._authShowWarnings (/usr/lib/code/extensions/copilot/dist/extension.js:1697:18732)
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at Bre.getCopilotToken (/usr/lib/code/extensions/copilot/dist/extension.js:1697:16253)
+    at Mge.getCopilotToken (/usr/lib/code/extensions/copilot/dist/extension.js:1400:7787)
+    at GL.waitForChatEnabled (/usr/lib/code/extensions/copilot/dist/extension.js:1512:3281)
+    at GL.run (/usr/lib/code/extensions/copilot/dist/extension.js:1512:3169)
+    at tte.askToUpgradeAuthPermissions (/usr/lib/code/extensions/copilot/dist/extension.js:1512:2646): Failed to get copilot token
+2026-05-22 19:54:27.729 [error] GitHub Copilot could not connect to server. Extension activation failed: "Failed to get copilot token. reason: NotAuthorized"
+2026-05-22 19:54:27.729 [info] [context keys] Setting context key: github.copilot.offline
+2026-05-22 19:54:27.729 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2026-05-22 19:54:27.729 [error] Error: Failed to get copilot token. reason: NotAuthorized
+    at Bre._authShowWarnings (/usr/lib/code/extensions/copilot/dist/extension.js:1697:18732)
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at Bre.getCopilotToken (/usr/lib/code/extensions/copilot/dist/extension.js:1697:16253)
+    at Mge.getCopilotToken (/usr/lib/code/extensions/copilot/dist/extension.js:1400:7787)
+    at Cne._getToken (/usr/lib/code/extensions/copilot/dist/extension.js:1664:8669)
+    at r (/usr/lib/code/extensions/copilot/dist/extension.js:1664:8133)
+    at Cne._registerEmbeddings (/usr/lib/code/extensions/copilot/dist/extension.js:1664:8630)
+    at async Promise.all (index 1)
+    at async Promise.allSettled (index 1)
+    at A9.waitForActivationBlockers (/usr/lib/code/extensions/copilot/dist/extension.js:1166:7697)
+    at /usr/lib/code/extensions/copilot/dist/extension.js:1166:8472
+    at s0n (/usr/lib/code/extensions/copilot/dist/extension.js:1166:8340)
+    at Ub._activate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:503:15965)
+    at Ub._waitForDepsThenActivate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:503:15907)
+    at Ub._initialize (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:503:15274)
+2026-05-22 19:54:27.729 [info] activationBlocker from 'languageModelAccess' took for 2592ms
+2026-05-22 19:54:27.729 [error] [ClaudeCodeModels] Failed to fetch models: Error: Failed to get copilot token. reason: NotAuthorized
+2026-05-22 19:56:04.847 [info] Logged in as corpxe

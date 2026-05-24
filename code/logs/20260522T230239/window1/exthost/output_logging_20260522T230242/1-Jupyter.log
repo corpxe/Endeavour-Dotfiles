@@ -1,0 +1,73 @@
+Code - OSS (1.119.0, undefined, desktop)
+Jupyter Extension Version: 2025.9.1.
+Python Extension Version: 2026.4.0.
+Python Environment Extension Version: 1.30.0.
+Pylance Extension not installed.
+Platform: linux (x64).
+Home = /home/corpxe
+Temp Storage folder ~/.config/Code - OSS/User/globalStorage/ms-toolsai.jupyter/version-2025.9.1
+Workspace folder ~/Desktop/IIT-ds/Stats
+23:02:43.099 [warn] No interpreter with path ~/Desktop/IIT-ds/.venv/bin/python found in Python API, will convert Uri path to string as Id ~/Desktop/IIT-ds/.venv/bin/python
+23:02:43.384 [warn] The following kernels use interpreters that are no longer valid or not recognized by Python extension, Kernels startUsingLocalKernelSpec:'id=.undefined.-xfrozen_modules=off.~/Desktop/IIT-ds/.venv/python.~/Desktop/IIT-ds/.venv/python.-xfrozen_modules=off#-m#ipykernel_launcher'(interpreterId='~/Desktop/IIT-ds/.venv/bin/python') and valid interpreter ids include /bin/python, /sbin/python, /usr/bin/python, /usr/sbin/python, ~/Desktop/IIT-ds/Stats/.venv/bin/python
+23:02:43.384 [warn] Disposing old controller startUsingLocalKernelSpec:'.undefined.-xfrozen_modules=off.~/Desktop/IIT-ds/.venv/python.~/Desktop/IIT-ds/.venv/python.-xfrozen_modules=off#-m#ipykernel_launcher' for view = 'jupyter-notebook'
+23:02:43.395 [warn] Disposing old controller startUsingLocalKernelSpec:'.undefined.-xfrozen_modules=off.~/Desktop/IIT-ds/.venv/python.~/Desktop/IIT-ds/.venv/python.-xfrozen_modules=off#-m#ipykernel_launcher (Interactive)' for view = 'interactive'
+23:08:02.278 [warn] The following kernels use interpreters that are no longer valid or not recognized by Python extension, Kernels startUsingLocalKernelSpec:'id=.undefined.-xfrozen_modules=off.~/Desktop/IIT-ds/.venv/python.~/Desktop/IIT-ds/.venv/python.-xfrozen_modules=off#-m#ipykernel_launcher'(interpreterId='~/Desktop/IIT-ds/.venv/bin/python') and valid interpreter ids include /bin/python, /sbin/python, /usr/bin/python, /usr/sbin/python, ~/Desktop/IIT-ds/Stats/.venv/bin/python
+23:08:02.278 [warn] Disposing old controller startUsingLocalKernelSpec:'.undefined.-xfrozen_modules=off.~/Desktop/IIT-ds/.venv/python.~/Desktop/IIT-ds/.venv/python.-xfrozen_modules=off#-m#ipykernel_launcher' for view = 'jupyter-notebook'
+23:08:02.279 [warn] Disposing old controller startUsingLocalKernelSpec:'.undefined.-xfrozen_modules=off.~/Desktop/IIT-ds/.venv/python.~/Desktop/IIT-ds/.venv/python.-xfrozen_modules=off#-m#ipykernel_launcher (Interactive)' for view = 'interactive'
+23:08:02.327 [info] Starting Kernel (Python Path: ~/Desktop/IIT-ds/Stats/.venv/bin/python, Venv, 3.14.5) for '~/Desktop/IIT-ds/Stats/Stats.ipynb' (disableUI=true)
+23:08:02.483 [info] Process Execution: ~/Desktop/IIT-ds/Stats/.venv/bin/python -m pip list
+23:08:02.565 [info] Process Execution: ~/Desktop/IIT-ds/Stats/.venv/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+23:08:02.577 [info] Process Execution: ~/Desktop/IIT-ds/Stats/.venv/bin/python -m ipykernel_launcher --f=/run/user/1000/jupyter/runtime/kernel-v3696cd0140c708ddbd3ee761a07dad747146713a7.json
+    > cwd: ~/Desktop/IIT-ds/Stats
+23:08:03.254 [info] Kernel successfully started
+23:08:03.265 [info] Process Execution: ~/Desktop/IIT-ds/Stats/.venv/bin/python ~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.9.1-universal/pythonFiles/printJupyterDataDir.py
+23:12:39.020 [warn] Cell completed with errors Iu [Error]: No module named 'numpy'
+    at n.execute (~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.9.1-universal/dist/extension.node.js:302:4958) {
+  ename: 'ModuleNotFoundError',
+  evalue: "No module named 'numpy'",
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mModuleNotFoundError\x1B[39m                       Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[1]\x1B[39m\x1B[32m, line 1\x1B[39m\n' +
+      '\x1B[32m----> \x1B[39m\x1B[32m1\x1B[39m \x1B[38;5;28;01mimport\x1B[39;00m numpy \x1B[38;5;28;01mas\x1B[39;00m np\n' +
+      '\x1B[32m      2\x1B[39m \x1B[38;5;28;01mimport\x1B[39;00m statistics \x1B[38;5;28;01mas\x1B[39;00m stats\n',
+    "\x1B[31mModuleNotFoundError\x1B[39m: No module named 'numpy'"
+  ]
+}
+23:13:11.032 [warn] Cell completed with errors Iu [Error]: No module named 'numpy'
+    at n.execute (~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.9.1-universal/dist/extension.node.js:302:4958) {
+  ename: 'ModuleNotFoundError',
+  evalue: "No module named 'numpy'",
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mModuleNotFoundError\x1B[39m                       Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[2]\x1B[39m\x1B[32m, line 1\x1B[39m\n' +
+      '\x1B[32m----> \x1B[39m\x1B[32m1\x1B[39m \x1B[38;5;28;01mimport\x1B[39;00m numpy \x1B[38;5;28;01mas\x1B[39;00m np\n' +
+      '\x1B[32m      2\x1B[39m \x1B[38;5;28;01mimport\x1B[39;00m statistics \x1B[38;5;28;01mas\x1B[39;00m stats\n',
+    "\x1B[31mModuleNotFoundError\x1B[39m: No module named 'numpy'"
+  ]
+}
+23:13:56.986 [warn] The following kernels use interpreters that are no longer valid or not recognized by Python extension, Kernels startUsingLocalKernelSpec:'id=.undefined.-xfrozen_modules=off.~/Desktop/IIT-ds/.venv/python.~/Desktop/IIT-ds/.venv/python.-xfrozen_modules=off#-m#ipykernel_launcher'(interpreterId='~/Desktop/IIT-ds/.venv/bin/python') and valid interpreter ids include /bin/python, /sbin/python, /usr/bin/python, /usr/sbin/python, ~/Desktop/IIT-ds/Stats/.venv/bin/python
+23:13:56.987 [warn] Disposing old controller startUsingLocalKernelSpec:'.undefined.-xfrozen_modules=off.~/Desktop/IIT-ds/.venv/python.~/Desktop/IIT-ds/.venv/python.-xfrozen_modules=off#-m#ipykernel_launcher' for view = 'jupyter-notebook'
+23:13:56.988 [warn] Disposing old controller startUsingLocalKernelSpec:'.undefined.-xfrozen_modules=off.~/Desktop/IIT-ds/.venv/python.~/Desktop/IIT-ds/.venv/python.-xfrozen_modules=off#-m#ipykernel_launcher (Interactive)' for view = 'interactive'
+00:46:10.493 [warn] Cell completed with errors Iu [Error]: name 'iris' is not defined
+    at n.execute (~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.9.1-universal/dist/extension.node.js:302:4958) {
+  ename: 'NameError',
+  evalue: "name 'iris' is not defined",
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mNameError\x1B[39m                                 Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[45]\x1B[39m\x1B[32m, line 1\x1B[39m\n' +
+      '\x1B[32m----> \x1B[39m\x1B[32m1\x1B[39m df = sns.load_dataset(iris)\n' +
+      '\x1B[32m      2\x1B[39m df\n',
+    "\x1B[31mNameError\x1B[39m: name 'iris' is not defined"
+  ]
+}
+02:52:28.503 [info] Dispose Kernel '~/Desktop/IIT-ds/Stats/Stats.ipynb' associated with '~/Desktop/IIT-ds/Stats/Stats.ipynb'
+02:52:28.582 [warn] Failed to delete connection file file:///run/user/1000/jupyter/runtime/kernel-v3696cd0140c708ddbd3ee761a07dad747146713a7.json for pid 6428 Canceled (FileSystemError): Canceled
+    at or._handleError (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:503:22145)
+    at Object.stat (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:503:19063)
+    at ou.delete (~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.9.1-universal/dist/extension.node.js:236:16320)
+    at ~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.9.1-universal/dist/extension.node.js:308:469 {
+  code: 'Unknown'
+}

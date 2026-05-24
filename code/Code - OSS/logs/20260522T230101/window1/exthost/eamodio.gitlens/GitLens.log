@@ -1,0 +1,8 @@
+2026-05-22 23:01:08.475 [info] To enable debug logging, run "GitLens: Enable Debug Logging" or "Developer: Set Log Level..." from the Command Palette
+2026-05-22 23:01:08.475 [info]    [            1] GitLens v17.12.2  activating in Code - OSS (1.119.0) on the desktop; mode=production,language='en', logLevel='info', defaultDateLocale='null' (code-oss|someValue.machineId|someValue.sessionId)
+2026-05-22 23:01:08.475 [info]    [            1] GitLens v17.12.2 activated [92ms]
+2026-05-22 23:01:08.475 [info]    [   70 →    71] GlCliGitProvider.findGit Git (2.54.0) found in /usr/bin/git [121ms]
+2026-05-22 23:01:08.475 [info]    [   70 →    97] GlCliGitProvider.repositorySearch(/home/corpxe/Desktop/IIT-ds/Stats) searching (depth=1)...
+2026-05-22 23:01:08.475 [error]   [GIT          ] [/home/corpxe/Desktop/IIT-ds/Stats] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree · not a git repository (or any parent up to mount point /) · Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set). [81ms]
+2026-05-22 23:01:08.475 [error]   [GIT          ] [/home/corpxe/Desktop/IIT-ds] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree · not a git repository (or any parent up to mount point /) · Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set). [34ms]
+2026-05-22 23:01:08.537 [info]    [IPC          ] Server started on http://127.0.0.1:44307

@@ -1,0 +1,96 @@
+{
+    "workbench.statusBar.visible": false,
+    "workbench.activityBar.location": "top",
+    "workbench.sideBar.location": "right",
+    "window.menuBarVisibility": "compact",
+    "window.commandCenter": false,
+    "workbench.colorTheme": "Community Material Theme Ocean High Contrast",
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.fontFamily": "JetBrainsMono Nerd Font",
+    "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 15,
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.smoothScrolling": true,
+    "editor.minimap.enabled": false,
+    "editor.wordWrap": "on",
+    "editor.formatOnSave": true,
+    "files.autoSave": "afterDelay",
+    "breadcrumbs.enabled": true,
+    "editor.inlineSuggest.enabled": true,
+    "editor.guides.bracketPairs": true,
+    "editor.renderWhitespace": "selection",
+    "editor.tabSize": 4,
+    "editor.rulers": [
+        150
+    ],
+    "terminal.integrated.defaultProfile.linux": "zsh",
+    "python.analysis.typeCheckingMode": "basic",
+    "python.defaultInterpreterPath": ".venv/bin/python",
+    "jupyter.askForKernelRestart": false,
+
+    "editor.tokenColorCustomizations": {
+        "[Community Material Theme Ocean High Contrast]": {
+            "textMateRules": [
+                {
+                    "scope": [
+                        "comment"
+                    ],
+                    "settings": {
+                        "foreground": "#5E8CAD",
+                        "fontStyle": "italic"
+                    }
+                },
+                {
+                    "scope": [
+                        "variable",
+                        "meta.definition.variable",
+                        "support.variable",
+                        "entity.name.variable"
+                    ],
+                    "settings": {
+                        "foreground": "#FFB86C"
+                    }
+                },
+                {
+                    "scope": [
+                        "variable.parameter"
+                    ],
+                    "settings": {
+                        "foreground": "#FF5555"
+                    }
+                },
+                {
+                    "scope": [
+                        "support.type.property-name",
+                        "meta.object-literal.key"
+                    ],
+                    "settings": {
+                        "foreground": "#50FA7B"
+                    }
+                }
+            ]
+        }
+    },
+    "explorer.confirmDelete": false,
+    "terminal.integrated.profiles.linux": {
+        "bash": {
+            "path": "bash",
+            "icon": "terminal-bash"
+        },
+        "zsh": {
+            "path": "/usr/bin/zsh"
+        },
+        "fish": {
+            "path": "fish"
+        },
+        "tmux": {
+            "path": "tmux",
+            "icon": "terminal-tmux"
+        },
+        "pwsh": {
+            "path": "pwsh",
+            "icon": "terminal-powershell"
+        }
+    }
+}

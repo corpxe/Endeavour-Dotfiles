@@ -1,0 +1,88 @@
+2026-05-22 19:54:26.906 [info] Name: Ruff
+2026-05-22 19:54:26.907 [info] Module: ruff
+2026-05-22 19:54:26.907 [info] Python extension loading
+2026-05-22 19:54:26.907 [info] Waiting for interpreter from python extension.
+2026-05-22 19:54:26.907 [info] Python extension loaded
+2026-05-22 19:54:26.907 [info] Using interpreter: /home/corpxe/Desktop/IIT-ds/Stats/.venv/bin/python
+2026-05-22 19:54:26.907 [info] Workspace settings for /home/corpxe/Desktop/IIT-ds/Stats: {
+    "nativeServer": "auto",
+    "cwd": "/home/corpxe/Desktop/IIT-ds/Stats",
+    "workspace": "file:///home/corpxe/Desktop/IIT-ds/Stats",
+    "path": [],
+    "ignoreStandardLibrary": true,
+    "interpreter": [
+        "/home/corpxe/Desktop/IIT-ds/Stats/.venv/bin/python"
+    ],
+    "configuration": null,
+    "importStrategy": "fromEnvironment",
+    "codeAction": {
+        "fixViolation": {
+            "enable": true
+        },
+        "disableRuleComment": {
+            "enable": true
+        }
+    },
+    "lint": {
+        "enable": true,
+        "run": "onType",
+        "args": [],
+        "preview": null,
+        "select": null,
+        "extendSelect": null,
+        "ignore": null
+    },
+    "format": {
+        "args": [],
+        "preview": null,
+        "backend": "internal"
+    },
+    "enable": true,
+    "organizeImports": true,
+    "fixAll": true,
+    "showNotifications": "off",
+    "exclude": null,
+    "lineLength": null,
+    "configurationPreference": "editorFirst",
+    "showSyntaxErrors": true,
+    "logLevel": null,
+    "logFile": null
+}
+2026-05-22 19:54:26.907 [info] Global settings: {
+    "nativeServer": "auto",
+    "cwd": "/home/corpxe",
+    "workspace": "/home/corpxe",
+    "path": [],
+    "ignoreStandardLibrary": true,
+    "interpreter": [],
+    "configuration": null,
+    "importStrategy": "fromEnvironment",
+    "codeAction": {
+        "fixViolation": {
+            "enable": true
+        },
+        "disableRuleComment": {
+            "enable": true
+        }
+    },
+    "lint": {
+        "enable": true,
+        "run": "onType",
+        "args": []
+    },
+    "format": {
+        "args": [],
+        "backend": "internal"
+    },
+    "enable": true,
+    "organizeImports": true,
+    "fixAll": true,
+    "showNotifications": "off",
+    "configurationPreference": "editorFirst",
+    "showSyntaxErrors": true
+}
+2026-05-22 19:54:26.922 [info] Falling back to bundled executable: /home/corpxe/.vscode-oss/extensions/charliermarsh.ruff-2026.44.0-linux-x64/bundled/libs/bin/ruff
+2026-05-22 19:54:26.959 [info] Resolved 'ruff.nativeServer: auto' to use the native server
+2026-05-22 19:54:26.962 [info] Found Ruff 0.15.14 at /home/corpxe/.vscode-oss/extensions/charliermarsh.ruff-2026.44.0-linux-x64/bundled/libs/bin/ruff
+2026-05-22 19:54:26.962 [info] Server run command: /home/corpxe/.vscode-oss/extensions/charliermarsh.ruff-2026.44.0-linux-x64/bundled/libs/bin/ruff server
+2026-05-22 19:54:26.963 [info] Server: Start requested.

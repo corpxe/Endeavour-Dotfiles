@@ -1,0 +1,113 @@
+{
+    "telemetry.sqmId": "",
+    "telemetry.machineId": "ce254d8655da154d2506e60e0de68c293d02c9f17964835b4ddfb55e9445c49a",
+    "telemetry.devDeviceId": "a1770a67-32ff-4de3-8c12-84d4504859cc",
+    "backupWorkspaces": {
+        "workspaces": [],
+        "folders": [
+            {
+                "folderUri": "file:///home/corpxe/Desktop/College/Sem4/DSE"
+            }
+        ],
+        "emptyWindows": []
+    },
+    "windowControlHeight": 35,
+    "profileAssociations": {
+        "workspaces": {
+            "file:///home/corpxe/Desktop/test": "__default__profile__",
+            "file:///home/corpxe/Desktop/React/my-app": "__default__profile__",
+            "file:///home/corpxe/Desktop/React/study": "__default__profile__",
+            "file:///home/corpxe/Desktop/Python/Maths": "__default__profile__",
+            "file:///home/corpxe/Desktop/Projects/Linux_todo": "__default__profile__",
+            "file:///home/corpxe/Desktop/HTML": "__default__profile__",
+            "file:///home/corpxe/Desktop/College/DSE": "__default__profile__",
+            "file:///home/corpxe/Desktop/College/Sem4/DSE": "__default__profile__"
+        },
+        "emptyWindows": {}
+    },
+    "theme": "vs-dark",
+    "themeBackground": "#0d1117",
+    "windowSplash": {
+        "zoomLevel": 0,
+        "baseTheme": "vs-dark",
+        "colorInfo": {
+            "foreground": "#c9d1d9",
+            "background": "#0d1117",
+            "editorBackground": "#0d1117",
+            "titleBarBackground": "#0d1117",
+            "titleBarBorder": "#30363d",
+            "activityBarBackground": "#0d1117",
+            "activityBarBorder": "#30363d",
+            "sideBarBackground": "#010409",
+            "sideBarBorder": "#30363d",
+            "statusBarBackground": "#0d1117",
+            "statusBarBorder": "#30363d",
+            "statusBarNoFolderBackground": "#0d1117"
+        },
+        "layoutInfo": {
+            "sideBarSide": "left",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 42,
+            "activityBarWidth": 48,
+            "sideBarWidth": 0,
+            "auxiliaryBarWidth": 374,
+            "statusBarHeight": 22,
+            "windowBorder": false
+        }
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "folder": "file:///home/corpxe/Desktop/College/Sem4/DSE",
+            "backupPath": "/home/corpxe/.config/Code/Backups/946d9c0198846989509b885cc131ecda",
+            "uiState": {
+                "mode": 0,
+                "x": 0,
+                "y": 0,
+                "width": 950,
+                "height": 1024,
+                "zoomLevel": -1
+            }
+        },
+        "openedWindows": []
+    },
+    "windowSplashWorkspaceOverride": {
+        "layoutInfo": {
+            "sideBarWidth": 239,
+            "auxiliaryBarWidth": 374,
+            "workspaces": {
+                "1796b43005355625b904c17c532b9e7f": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "5f6c975e5a5e6e18ce5e235b32c180af": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "ccf3792ce35d637eb62472120edfa4c9": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "e7aff68d0108863520c5960ea82768dd": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "84131b748d74599edea39763b8a3f201": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "7f4e1d4edecb5066ce9af34d098148d2": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "c05410cd02ed2b1ed97391d3bbcd24c5": {
+                    "sideBarVisible": false,
+                    "auxiliaryBarVisible": true
+                },
+                "4429dfd306b3c8aa84e8d6f0d68fe8e7": {
+                    "sideBarVisible": false,
+                    "auxiliaryBarVisible": true
+                }
+            }
+        }
+    }
+}
